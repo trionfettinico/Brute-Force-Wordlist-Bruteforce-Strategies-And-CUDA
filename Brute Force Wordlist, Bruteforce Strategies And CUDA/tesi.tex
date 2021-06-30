@@ -1,0 +1,72 @@
+\documentclass[a4paper]{unicam_thesis}
+\usepackage[sorting=none]{biblatex}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TESI DATI FRONTESPIZIO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Brute Force \\ Wordlist, Bruteforce Strategies And CUDA }
+
+\university{Universit\`a degli Studi di Camerino}%
+\school{Scienze e Tecnologie}%
+\course{Laurea in Informatica (Classe L-31)}%
+
+
+\author{Nico Trionfetti}%
+\advisor{Prof. Fausto Marcantoni}%
+% \coadvisor2{Correlatore Name}%
+\academicyear{2020/2021}%
+\matricola{105381}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FINE DATI FRONTESPIZIO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition} \newtheorem{esempio}{Esempio}[chapter]
+\theoremstyle{definition}
+\newtheorem{definizione}{Definizione}[chapter] \theoremstyle{plain}
+\newtheorem{teorema}{Teorema}[chapter]
+\graphicspath{{Screenshot/},{Immagini/},{API/},{Source/}}
+\bibliography{biblio.bib}
+\begin{document}
+
+\maketitle
+
+
+\tableofcontents
+
+\begin{abstract}
+    abstract content here
+\end{abstract}
+
+\addcontentsline{toc}{chapter}{Abstract}
+\input{introduzione}
+\input{Capitolo1}
+\input{Capitolo2}
+\input{Capitolo3}
+\input{Capitolo4}
+\input{Capitolo5}
+\input{Capitolo6}
+\input{Capitolo7}
+\input{Capitolo8}
+
+\lstlistoflistings
+\listoffigures
+\listoftables
+
+\appendix
+%\input{schema_elettrico}
+%\input{Appendix1}
+%\input{Appendix2}
+
+\printbibliography
+
+\printindex
+
+\include{ringraziamenti}
+
+\end{document}

@@ -1,0 +1,158 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{hash}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{FUNZIONI HASH}
+    \verb{url}
+    \verb http://www.di-srv.unisa.it/~ads/corso-security/www/CORSO-0304/PAROS/h
+    \verb ash.htm
+    \endverb
+  \endentry
+
+  \entry{hashcrack}{book}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={Netmux},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Amazon Italia Logistica S.r.l.}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9781793458612}
+    \field{title}{HASH CRACK password cracking manual}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Offline_attack}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Matt},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{What’s The Difference Between Offline And Online Password
+  Attacks?}
+    \verb{url}
+    \verb https://www.triaxiomsecurity.com/whats-the-difference-between-offline
+    \verb -and-online-password-attacks/
+    \endverb
+  \endentry
+
+  \entry{hashcat}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{hashcat}
+    \verb{url}
+    \verb https://hashcat.net/wiki/doku.php?id=hashcat
+    \endverb
+  \endentry
+
+  \entry{John_The_Ripper}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{John the Ripper password cracker}
+    \verb{url}
+    \verb https://www.openwall.com/john/
+    \endverb
+  \endentry
+
+  \entry{Brute_attack}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MR}{%
+         family={Matthews},
+         familyi={M\bibinitperiod},
+         given={Ruth},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MR1}
+    \strng{fullhash}{MR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Che cos’è un attacco brute force?}
+    \verb{url}
+    \verb https://nordvpn.com/it/blog/attacco-brute-force/
+    \endverb
+  \endentry
+
+  \entry{Brute_attack2}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Che cos’è un attacco brute force?Cos'è un attacco di
+  forza bruta?}
+    \verb{url}
+    \verb https://www.kaspersky.it/resource-center/definitions/brute-force-atta
+    \verb ck
+    \endverb
+  \endentry
+
+  \entry{Dictionary_attack}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Attacco Dizionario e Forza Bruta}
+    \verb{url}
+    \verb https://hackerstribe.com/vocabolario/attacco-dizionario-e-forza-bruta
+    \verb /
+    \endverb
+  \endentry
+
+  \entry{CRUNCH}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{crunch Package Description}
+    \verb{url}
+    \verb https://tools.kali.org/password-attacks/crunch
+    \endverb
+  \endentry
+
+  \entry{Rainbow_table_attack}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Rainbow Table Password Attack - Che cos'è e come proteggersi
+  da esso}
+    \verb{url}
+    \verb https://www.cyclonis.com/it/rainbow-table-password-attack-che-cose-e-
+    \verb come-proteggersi-da-esso/
+    \endverb
+  \endentry
+
+  \entry{Rule_based}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Performing Rule Based Attack Using Hashcat}
+    \verb{url}
+    \verb https://www.armourinfosec.com/performing-rule-based-attack-using-hash
+    \verb cat/
+    \endverb
+  \endentry
+
+  \entry{Mask_attack}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{How to Perform a Mask Attack Using hashcat}
+    \verb{url}
+    \verb https://www.4armed.com/blog/perform-mask-attack-hashcat/
+    \endverb
+  \endentry
+\enddatalist
+\endinput

@@ -1,0 +1,54 @@
+\BOOKMARK [0][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduzione}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Che cos'\350 il Brute Force}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Hash}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{Types}{section.1.2}% 5
+\BOOKMARK [1][-]{section.1.3}{Password analysis}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.3.1}{20-60-20 RULE}{section.1.3}% 7
+\BOOKMARK [0][-]{chapter.2}{Tecniche di Brute Force}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Offline Attack}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Brute Force Attack}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Dictionary Attack}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Rainbow Table Attack}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{Rule Attack}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.6}{Mask Attack}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Extract Hashes}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Windows}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Linux}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{MacOS}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{File}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{Network Hashes}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.6}{Database hash extraction}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.7}{Virtual Machines}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.7.1}{VMware}{section.3.7}% 23
+\BOOKMARK [2][-]{subsection.3.7.2}{Docker}{section.3.7}% 24
+\BOOKMARK [2][-]{subsection.3.7.3}{Kubernetes}{section.3.7}% 25
+\BOOKMARK [1][-]{section.3.8}{Cloud Services}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.8.1}{AWS}{section.3.8}% 27
+\BOOKMARK [2][-]{subsection.3.8.2}{GCP Google Cloud Platform}{section.3.8}% 28
+\BOOKMARK [0][-]{chapter.4}{Brute Force Dispositivi mobile}{}% 29
+\BOOKMARK [1][-]{section.4.1}{Brute Force con Dispositivi mobile}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{NetHunter}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{Rubber Ducky \046 Android\137HID}{section.4.1}% 32
+\BOOKMARK [1][-]{section.4.2}{Brute force con Kali}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.3}{Android-PIN-Bruteforce}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.4}{WBRUTE}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.5}{CiLocks}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.6}{Arkhota}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Web Brute Force}{}% 38
+\BOOKMARK [1][-]{section.5.1}{Tecniche}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.2}{Strumenti}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.3}{Esempio}{chapter.5}% 41
+\BOOKMARK [0][-]{chapter.6}{Wi-Fi Brute Force}{}% 42
+\BOOKMARK [1][-]{section.6.1}{Tecniche}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.2}{Strumenti}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.3}{Esempio}{chapter.6}% 45
+\BOOKMARK [0][-]{chapter.7}{Parallelismo}{}% 46
+\BOOKMARK [1][-]{section.7.1}{Tecniche}{chapter.7}% 47
+\BOOKMARK [1][-]{section.7.2}{Strumenti}{chapter.7}% 48
+\BOOKMARK [1][-]{section.7.3}{Esempio}{chapter.7}% 49
+\BOOKMARK [0][-]{chapter.8}{CUDA}{}% 50
+\BOOKMARK [1][-]{section.8.1}{CPU vs GPU}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.2}{Strumenti}{chapter.8}% 52
+\BOOKMARK [1][-]{section.8.3}{Esempio}{chapter.8}% 53
+\BOOKMARK [0][-]{chapter.9}{Tecniche di difesa}{}% 54

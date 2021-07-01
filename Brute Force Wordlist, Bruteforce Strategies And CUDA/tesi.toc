@@ -34,78 +34,82 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Windows}{19}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Linux}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.1.1}CREDDUMP}{19}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}MacOS}{19}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1.2}MIMIKATZ}{20}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}File}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.2}Linux}{21}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Network Hashes}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.3}MacOS}{21}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Database hash extraction}{19}{section.3.6}%
+\contentsline {section}{\numberline {3.4}File}{21}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Virtual Machines}{19}{section.3.7}%
+\contentsline {section}{\numberline {3.5}Network Hashes}{21}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}VMware}{19}{subsection.3.7.1}%
+\contentsline {section}{\numberline {3.6}Database hash extraction}{21}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.2}Docker}{19}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.7}Virtual Machines}{21}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.3}Kubernetes}{19}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.1}VMware}{21}{subsection.3.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Cloud Services}{19}{section.3.8}%
+\contentsline {subsection}{\numberline {3.7.2}Docker}{21}{subsection.3.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.1}AWS}{19}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.7.3}Kubernetes}{21}{subsection.3.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.2}GCP \(Google Cloud Platform\)}{19}{subsection.3.8.2}%
+\contentsline {section}{\numberline {3.8}Cloud Services}{21}{section.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Brute Force Dispositivi mobile}{21}{chapter.4}%
+\contentsline {subsection}{\numberline {3.8.1}AWS}{21}{subsection.3.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Brute Force con Dispositivi mobile}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {3.8.2}GCP (Google Cloud Platform)}{21}{subsection.3.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}NetHunter}{21}{subsection.4.1.1}%
+\contentsline {chapter}{\numberline {4}Brute Force Dispositivi mobile}{23}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Rubber Ducky \& Android\_HID}{21}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.1}Brute Force con Dispositivi mobile}{23}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Brute force con Kali}{21}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.1}NetHunter}{23}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Android-PIN-Bruteforce}{21}{section.4.3}%
+\contentsline {subsection}{\numberline {4.1.2}Rubber Ducky \& Android\_HID}{23}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}WBRUTE}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.2}Brute force con Kali}{23}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}CiLocks}{22}{section.4.5}%
+\contentsline {section}{\numberline {4.3}Android-PIN-Bruteforce}{23}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Arkhota}{22}{section.4.6}%
+\contentsline {section}{\numberline {4.4}WBRUTE}{24}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Web Brute Force}{23}{chapter.5}%
+\contentsline {section}{\numberline {4.5}CiLocks}{24}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Tecniche}{23}{section.5.1}%
+\contentsline {section}{\numberline {4.6}Arkhota}{24}{section.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Strumenti}{23}{section.5.2}%
+\contentsline {chapter}{\numberline {5}Web Brute Force}{25}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Esempio}{23}{section.5.3}%
+\contentsline {section}{\numberline {5.1}Tecniche}{25}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Wi-Fi Brute Force}{25}{chapter.6}%
+\contentsline {section}{\numberline {5.2}Strumenti}{25}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Tecniche}{25}{section.6.1}%
+\contentsline {section}{\numberline {5.3}Esempio}{25}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Strumenti}{25}{section.6.2}%
+\contentsline {chapter}{\numberline {6}Wi-Fi Brute Force}{27}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Esempio}{25}{section.6.3}%
+\contentsline {section}{\numberline {6.1}Tecniche}{27}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Parallelismo}{27}{chapter.7}%
+\contentsline {section}{\numberline {6.2}Strumenti}{27}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Tecniche}{27}{section.7.1}%
+\contentsline {section}{\numberline {6.3}Esempio}{27}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Strumenti}{27}{section.7.2}%
+\contentsline {chapter}{\numberline {7}Parallelismo}{29}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Esempio}{27}{section.7.3}%
+\contentsline {section}{\numberline {7.1}Tecniche}{29}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}CUDA}{29}{chapter.8}%
+\contentsline {section}{\numberline {7.2}Strumenti}{29}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}CPU vs GPU}{29}{section.8.1}%
+\contentsline {section}{\numberline {7.3}Esempio}{29}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Strumenti}{29}{section.8.2}%
+\contentsline {chapter}{\numberline {8}CUDA}{31}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Esempio}{29}{section.8.3}%
+\contentsline {section}{\numberline {8.1}CPU vs GPU}{31}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Tecniche di difesa}{31}{chapter.9}%
+\contentsline {section}{\numberline {8.2}Strumenti}{31}{section.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Esempio}{31}{section.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Tecniche di difesa}{33}{chapter.9}%

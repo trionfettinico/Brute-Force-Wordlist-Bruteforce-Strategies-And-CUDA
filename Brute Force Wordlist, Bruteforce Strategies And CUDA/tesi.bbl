@@ -154,5 +154,29 @@
     \verb https://www.4armed.com/blog/perform-mask-attack-hashcat/
     \endverb
   \endentry
+
+  \entry{CREDDUMP}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{creddump}
+    \verb{url}
+    \verb https://github.com/moyix/creddump
+    \endverb
+  \endentry
+
+  \entry{MIMIKATZ}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{MIMIKATZ}
+    \verb{url}
+    \verb https://github.com/gentilkiwi/mimikatz
+    \endverb
+  \endentry
+
+  \entry{ProcDump}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{ProcDump V10.0}
+    \verb{url}
+    \verb https://docs.microsoft.com/en-us/sysinternals/downloads/procdump
+    \endverb
+  \endentry
 \enddatalist
 \endinput

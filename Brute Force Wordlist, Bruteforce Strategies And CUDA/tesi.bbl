@@ -178,5 +178,13 @@
     \verb https://docs.microsoft.com/en-us/sysinternals/downloads/procdump
     \endverb
   \endentry
+
+  \entry{hash_Linux}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Spiegazione del file /etc/shadow su Linux}
+    \verb{url}
+    \verb https://noviello.it/spiegazione-del-file-etc-shadow-su-linux/
+    \endverb
+  \endentry
 \enddatalist
 \endinput

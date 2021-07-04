@@ -21,4 +21,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.5}pwdump example}{20}{lstlisting.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.1}Esempio di listing}{24}{lstlisting.4.1}%
+\contentsline {lstlisting}{\numberline {3.6}ProcDump copia lsass}{21}{lstlisting.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {3.7}Mimikatz command setup}{21}{lstlisting.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {3.8}Mimikatz Logon Passwords}{22}{lstlisting.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {3.9}ETC/SHADOW}{22}{lstlisting.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {3.10}ETC/SHADOW composizione}{23}{lstlisting.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {3.11}ETC/SHADOW esempio}{23}{lstlisting.3.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {4.1}Esempio di listing}{26}{lstlisting.4.1}%

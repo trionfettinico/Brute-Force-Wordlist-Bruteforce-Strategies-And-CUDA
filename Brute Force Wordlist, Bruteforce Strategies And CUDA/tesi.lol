@@ -33,4 +33,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.11}ETC/SHADOW esempio}{23}{lstlisting.3.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.1}Esempio di listing}{26}{lstlisting.4.1}%
+\contentsline {lstlisting}{\numberline {4.1}Android-PIN-Bruteforce command}{27}{lstlisting.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {4.2}Android-PIN-Bruteforce command musk}{28}{lstlisting.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {4.3}Android-PIN-Bruteforce command musk}{28}{lstlisting.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {4.4}Android-PIN-Bruteforce command musk}{28}{lstlisting.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {4.5}Android-PIN-Bruteforce command}{29}{lstlisting.4.5}%

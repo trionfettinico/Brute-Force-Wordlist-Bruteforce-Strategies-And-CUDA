@@ -186,5 +186,71 @@
     \verb https://noviello.it/spiegazione-del-file-etc-shadow-su-linux/
     \endverb
   \endentry
+
+  \entry{NetHunter}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Kali NetHunter}
+    \verb{url}
+    \verb https://www.kali.org/docs/nethunter/
+    \endverb
+  \endentry
+
+  \entry{Android-PIN-Bruteforce}{online}{}
+    \name{author}{1}{}{%
+      {{hash=u}{%
+         family={urbanadventurer},
+         familyi={u\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{u1}
+    \strng{fullhash}{u1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Android-PIN-Bruteforce}
+    \verb{url}
+    \verb https://github.com/urbanadventurer/Android-PIN-Bruteforce
+    \endverb
+  \endentry
+
+  \entry{nethunter_official}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{kali-mobile}
+    \verb{url}
+    \verb https://www.kali.org/get-kali/#kali-mobile
+    \endverb
+  \endentry
+
+  \entry{nethunter_community}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{kali-mobile}
+    \verb{url}
+    \verb https://www.kali.org/docs/nethunter/building-nethunter/
+    \endverb
+  \endentry
+
+  \entry{wbrute}{online}{}
+    \name{author}{1}{}{%
+      {{hash=w}{%
+         family={wuseman},
+         familyi={w\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{w1}
+    \strng{fullhash}{w1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{wbrute}
+    \verb{url}
+    \verb https://www.kali.org/docs/nethunter/building-nethunter/
+    \endverb
+  \endentry
+
+  \entry{adb}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Android Debug Bridge (adb)}
+    \verb{url}
+    \verb https://developer.android.com/studio/command-line/adb
+    \endverb
+  \endentry
 \enddatalist
 \endinput

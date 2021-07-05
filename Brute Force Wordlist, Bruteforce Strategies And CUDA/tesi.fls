@@ -252,8 +252,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT tesi.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
-INPUT introduzione.tex
-INPUT introduzione.tex
+INPUT Capitolo1.tex
+INPUT Capitolo1.tex
 INPUT Immagini/introduzione/banner.png
 INPUT ./Immagini/introduzione/banner.png
 INPUT ./Immagini/introduzione/banner.png
@@ -273,8 +273,8 @@ INPUT ./Immagini/introduzione/Micro_pattern.png
 INPUT Immagini/introduzione/20-60-20.png
 INPUT ./Immagini/introduzione/20-60-20.png
 INPUT ./Immagini/introduzione/20-60-20.png
-INPUT Capitolo1.tex
-INPUT Capitolo1.tex
+INPUT Capitolo2.tex
+INPUT Capitolo2.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -286,8 +286,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT Immagini/1/hashcat_show.png
 INPUT ./Immagini/1/hashcat_show.png
 INPUT ./Immagini/1/hashcat_show.png
-INPUT Capitolo2.tex
-INPUT Capitolo2.tex
+INPUT Capitolo3.tex
+INPUT Capitolo3.tex
 INPUT Immagini/2/mimikatz.jpg
 INPUT ./Immagini/2/mimikatz.jpg
 INPUT ./Immagini/2/mimikatz.jpg
@@ -317,8 +317,8 @@ INPUT ./Immagini/2/mimikatz_3.PNG
 INPUT Immagini/2/linux_1.png
 INPUT ./Immagini/2/linux_1.png
 INPUT ./Immagini/2/linux_1.png
-INPUT Capitolo3.tex
-INPUT Capitolo3.tex
+INPUT Capitolo4.tex
+INPUT Capitolo4.tex
 INPUT Immagini/3/nethunter_1.png
 INPUT ./Immagini/3/nethunter_1.png
 INPUT ./Immagini/3/nethunter_1.png
@@ -340,8 +340,6 @@ INPUT ./Immagini/3/wbrute.png
 INPUT Immagini/3/cilocks.png
 INPUT ./Immagini/3/cilocks.png
 INPUT ./Immagini/3/cilocks.png
-INPUT Capitolo4.tex
-INPUT Capitolo4.tex
 INPUT Capitolo5.tex
 INPUT Capitolo5.tex
 INPUT Capitolo6.tex
@@ -350,6 +348,8 @@ INPUT Capitolo7.tex
 INPUT Capitolo7.tex
 INPUT Capitolo8.tex
 INPUT Capitolo8.tex
+INPUT Capitolo9.tex
+INPUT Capitolo9.tex
 INPUT tesi.lol
 INPUT tesi.lol
 OUTPUT tesi.lol

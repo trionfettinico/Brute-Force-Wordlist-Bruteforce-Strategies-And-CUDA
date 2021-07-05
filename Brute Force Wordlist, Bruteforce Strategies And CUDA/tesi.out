@@ -27,19 +27,20 @@
 \BOOKMARK [1][-]{section.4.2}{WBRUTE}{chapter.4}% 27
 \BOOKMARK [1][-]{section.4.3}{CiLocks}{chapter.4}% 28
 \BOOKMARK [0][-]{chapter.5}{Web Brute Force}{}% 29
-\BOOKMARK [1][-]{section.5.1}{Tecniche}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.2}{Strumenti}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{Esempio}{chapter.5}% 32
-\BOOKMARK [0][-]{chapter.6}{Wi-Fi Brute Force}{}% 33
-\BOOKMARK [1][-]{section.6.1}{Tecniche}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.2}{Strumenti}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.3}{Esempio}{chapter.6}% 36
-\BOOKMARK [0][-]{chapter.7}{Parallelismo}{}% 37
-\BOOKMARK [1][-]{section.7.1}{Tecniche}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.2}{Strumenti}{chapter.7}% 39
-\BOOKMARK [1][-]{section.7.3}{Esempio}{chapter.7}% 40
-\BOOKMARK [0][-]{chapter.8}{CUDA}{}% 41
-\BOOKMARK [1][-]{section.8.1}{CPU vs GPU}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.2}{Strumenti}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.3}{Esempio}{chapter.8}% 44
-\BOOKMARK [0][-]{chapter.9}{Tecniche di difesa}{}% 45
+\BOOKMARK [1][-]{section.5.1}{Strumenti}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.1.1}{Hydra}{section.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.1.2}{WpScan}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.3}{GoBuster}{section.5.1}% 33
+\BOOKMARK [0][-]{chapter.6}{Wi-Fi Brute Force}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Tecniche}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.2}{Strumenti}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.3}{Esempio}{chapter.6}% 37
+\BOOKMARK [0][-]{chapter.7}{Parallelismo}{}% 38
+\BOOKMARK [1][-]{section.7.1}{Tecniche}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.2}{Strumenti}{chapter.7}% 40
+\BOOKMARK [1][-]{section.7.3}{Esempio}{chapter.7}% 41
+\BOOKMARK [0][-]{chapter.8}{CUDA}{}% 42
+\BOOKMARK [1][-]{section.8.1}{CPU vs GPU}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.2}{Strumenti}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.3}{Esempio}{chapter.8}% 45
+\BOOKMARK [0][-]{chapter.9}{Tecniche di difesa}{}% 46

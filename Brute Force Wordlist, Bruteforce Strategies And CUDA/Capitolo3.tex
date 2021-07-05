@@ -1,132 +1,179 @@
-\chapter{Brute Force Dispositivi mobile}
-In questo capitolo andremo a discutere di come viene eseguito un Brute-Force sui dispositivi mobile.
+\chapter{Extract Hashes}
+Una parte fondamentale dei attacchi Brute-Force è il fatto di recuperare gli hash, in modo da poterli attaccare offline, andando a ridure cosi i tempi e le tracce che si possono lasciare.
+Questi hash possono trovarsi in vari sistemi, diversi tra loro e ognuno si differenzia per il modo e per i strumenti con cui si possono recuperare.
+\section{Windows}
+In Windows gli hash inerenti alle password dei account, sono archiviati in un file di database nel controller di dominio (NTDS.DIT) con alcune informazioni aggiuntive come le appartenenze ai gruppi e gli utenti.
 
-\section{Brute Force con Dispositivi mobile}
+Il file NTDS.DIT è costantemente utilizzato dal sistema operativo e quindi non può essere copiato direttamente in un'altra posizione per l'estrazione delle informazioni.
+\begin{lstlisting}[ caption={NTDS.DIT Directory}, style=javaScriptCode]
+    C:\Windows\NTDS\NTDS.dit
+\end{lstlisting}
 
-Una delle metodologie possibili da applicare per eseguire un Brute-Force sui dispositivi mobile è quella di utilizzare un'altro device mobile per eseguire l'attacco, questo è possibile grazie all'installazione di NetHunter sul device attaccante, un sistema operativo che ci permetterà di abilitare determinate operazioni eseguibili sul dispositvo.
+Esistono varie tecniche che possono essere utilizzate per estrarre questo file o le informazioni memorizzate al suo interno.
 
-\subsection{NetHunter}
+\subsection{CREDDUMP}
 
-NetHunter\cite{NetHunter} è una ROM per Android sviluppata appositamente per chi vuole utilizzare i programmi presenti nella distribuzione Kali Linux da telefono.
+Questo strumento\cite{CREDDUMP} permette di estrarre ogni possibile cache delle credenziali dei domini.
 
-NetHunter permette quindi di interfacciarsi con i vari strumenti per testare la sicurezza informatica. Nei software a disposizione si troveranno diversi programmi per effettuare attacchi di tipo HID Keyboard, BadUSB, Evil AP MANA e molto altro. 
+Prima di tutto dobbiamo creare una copia dei registri di Windows:
 
-Kali NetHunter è disponibile per dispositivi senza root (NetHunter Rootless), per dispositivi rooted (NetHunter Lite / NetHunter).
+\begin{lstlisting}[ caption={copy reg.}, style=javaScriptCode]
+    C:\WIND0WS\system32>reg.exe save HKLM\SAM sam_backup.hiv
+    C:\WIND0WS\system32>reg.exe save HKLM\SECURITY sec_backup.hiv
+    C:\WIND0WS\system32>reg.exe save HKLM\system sys_backup.hiv
+    \end{lstlisting}
+
+
+Successivamente possiamo utilizzare tre tipi di attacchi :
+\begin{itemize}
+    \item cachedump -> scarica le credenziali memorizzate nella cache
+          \begin{lstlisting}[ caption={cachedump example}, style=javaScriptCode]
+        root@kali:~# cachedump
+                     usage: /usr/bin/cachedump <system hive> <security hive>
+                     cachedump sys_backup.hiv sec_backup.hiv
+    \end{lstlisting}
+    \item lsadump -> scarica le credenziali LSA
+          \begin{lstlisting}[ caption={lsadump example}, style=javaScriptCode]
+        root@kali:~# lsadump
+                     usage: /usr/bin/lsadump <system hive> <security hive>
+                     lsadump sys_backup.hiv sec_backup.hiv
+    \end{lstlisting}
+    \item pwdump -> scarica gli hash della password
+          \begin{lstlisting}[ caption={pwdump example}, style=javaScriptCode]
+        root@kali:~# pwdump 
+                     usage: /usr/bin/pwdump <system hive> <security hive>
+                     pwdump sys_backup.hiv sec_backup.hiv 
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{MIMIKATZ}
+
+Mimikatz\cite{MIMIKATZ}, creato da gentilkiwi , può essere utilizzato per estrarre hash di password e codici PIN dalla memoria di Windows.
+
+Oggi, Windows Defender e i software di antivirus sono diventati sempre più efficaci nel rilevare le esecuzioni e le firme di Mimikatz.
+
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=116mm]{Immagini/3/nethunter_1.png}
-    \caption{NetHunter}
-    \label{fig:NetHunter}
+    \includegraphics[width=120mm]{Immagini/2/mimikatz.jpg}
+    \caption{MIMIKATZ e antivirus}
+    \label{fig:MIMIKATZ}
+\end{figure}
+
+In combinazione con Mimikatz ora si utilizza ProcDump\cite{ProcDump}, un eseguibile autonomo progettato per gli amministratori per monitorare i crash dump delle applicazioni. ProcDump viene utilizzato per estrarre il dump LSASS \footnote[1]{\textbf{LSASS} : Local Security Authority Subsystem Service ( LSASS ) è un processo nei sistemi operativi Microsoft Windows che è responsabile dell'applicazione della politica di sicurezza sul sistema. Verifica gli utenti che accedono a un computer o server Windows, gestisce le modifiche alla password e crea token di accesso . Scrive anche nel registro di sicurezza di Windows .} , che viene successivamente spostato su un computer Windows offline e analizzato con Mimikatz . Questa è ancora una tecnica efficace per estrarre le credenziali da Windows, poiché ProcDump è un binario Microsoft firmato e non viene segnalato dalla maggior parte dei software antivirus.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=120mm]{Immagini/2/procdump.jpg}
+    \caption{ProcDump e antivirus}
+    \label{fig:ProcDump}
 \end{figure}
 
 \newpage
 
-Nel nostro caso andremo ad utilizzare la versione NetHunter, che ci permetterà di utilizzare l'interfaccia HID\footnote[1]{\textbf{HID} : Human Interface Device o HID è un tipo di dispositivo informatico solitamente utilizzato dagli esseri umani che riceve input dagli umani e fornisce output agli umani.}, questa permetterà al dispositivo attaccante di comunicare con il dispositivo vittima, come se fosse un mouse o una tastiera.
+Per eseguire il Dump, basta digitare il seguente comando (una volta scaricato procDump) nel prompt dei comandi :
 
-\subsection{Android-PIN-Bruteforce}
+\begin{lstlisting}[ caption={ProcDump copia lsass}, style=javaScriptCode]
+    C:\procdump.exe -accepteula -ma lsass.exe lsass.dmp
+\end{lstlisting}
 
-La prima tecnica che andremo a vedere è Android-PIN-Bruteforce\cite{Android-PIN-Bruteforce} che è stato sviluppato dal gruppo urbanadventur, qui si andrà a frutture l’interfaccia HID per simulare l’utilizzo di una tastiera per l’inserimento dei PIN, permettendo di provare tutti i PIN possibili in circa 16 ore.
+Una volta svolto il Dump con procDump, possiamo passare a Mimikatz. 
+Apriamo mimikatz con i permessi di amministratore.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=100mm]{Immagini/2/mimikatz_1.PNG}
+    \caption{Mimikatz primo avvio}
+    \label{fig:ProcDump}
+\end{figure}
 
-Per eseguire questo tipo di attacco dobbiamo essere in possesso di un dispositivo mobile che sia compatibile per via ufficiali\cite{nethunter_official} o mantenuto dalla community\cite{nethunter_community}. Una volta che si ha il dispositivo bisogna installarci Nethunter su di esso in modo da abilitare l'interfaccia HID.
-
-L'ultima due cose necessarie per eseguire l'attacco sono un cavo OTG (maschio micro USB  -> femmina USB-A) e il dispositivo vittima con il suo cavo di ricarica.
+Ora abilitiamo il log e andiamo a spostare lo spazio di lavoro di mimikatz sul file generato da procDump 
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=140mm]{Immagini/3/pin_brute_1.png}
-    \caption{Android-PIN-Bruteforce}
-    \label{fig:Android-PIN-Bruteforce}
+    \includegraphics[width=100mm]{Immagini/2/mimikatz_2.PNG}
+    \caption{Mimikatz setup}
+    \label{fig:ProcDump}
 \end{figure}
 
-Questa tecnica permette di :
-\begin{itemize}
-	\item A differenza di altri metodi, non è necessario abilitare il debug ADB o USB sul telefono bloccato, inoltre si può impostare la lunghezza della password da provare (da 1 a 10).
-	\item Il telefono Android bloccato non ha bisogno di essere rootato
-	\item Trasforma il tuo telefono NetHunter in una macchina per crackare il PIN Android
-	\item Non è necessario acquistare hardware speciale
-	\item Utilizza i file di configurazione per supportare diversi telefoni
-	\item Elenchi di PIN ottimizzati per PIN a 3,4,5 e 6 cifre
-	\item Ignora i popup del telefono incluso l’avviso di basso consumo
-	\item Rileva quando il telefono è scollegato o spento e attende mentre riprova ogni 5 secondi
-	\item Ritardi configurabili di N secondi dopo ogni X tentativi di PIN
-\end{itemize}
+\begin{lstlisting}[ caption={Mimikatz command setup}, style=javaScriptCode]
+    log
+    sekerlsa::minidump lsass.dmp
+\end{lstlisting}
 
-Per eseguire il seguente script, basta scaricarlo dal git ufficiale del gruppo e collegare il dispositivo attacante al dispositivo vittima come detto in precedenza e lanciare dal terminale del dispositivo il comando :
+Ora siamo pronti per recuperare tutte le password memorizzate internamente al sistema, eseguendo il seguente comando :
 
-\begin{lstlisting}[ caption={Android-PIN-Bruteforce command}, style=javaScriptCode]
-	bash ./android-pin-bruteforce crack
+\begin{lstlisting}[ caption={Mimikatz Logon Passwords}, style=javaScriptCode]
+    sekerlsa::logonpasswords
 \end{lstlisting}
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=140mm]{Immagini/3/brute.jpg}
-    \caption{Android-PIN-Bruteforce}
-    \label{fig:Android-PIN-Bruteforce}
+    \includegraphics[width=100mm]{Immagini/2/mimikatz_3.PNG}
+    \caption{Mimikatz setup}
+    \label{fig:ProcDump}
 \end{figure}
 
-Questo script come detto, fa uso di una serie di liste di PIN ottimizzate (Gli elenchi di PIN ottimizzati sono stati generati estraendo le password numeriche dalle perdite di database e quindi ordinandole in base alla frequenza). Per la scelta della lunghezza dei PIN da utilizzare, basta aggiungere il comando –lenght X, dove X sta per la lunghezza della password da utilizzare.
+Una volta recuperati gli hash delle password siamo pronti per eseguire un Brute-Force attraverso per esempio lo strumento hashcat o john the ripper.
 
-Inoltre è possibile utilizzare delle maschere per i PIN da utilizzare :
-\begin{itemize}
-	\item Per provare tutti gli anni dal 1900 al 1999 \newline
-	\begin{lstlisting}[ caption={Android-PIN-Bruteforce command musk}, style=javaScriptCode]
-		bash ./android-pin-bruteforce crack -mask "19.."
-	\end{lstlisting}
-	\item Per provare i PIN che hanno un 1 nella prima cifra e un 1 nell’ultima cifra \newline
-	\begin{lstlisting}[ caption={Android-PIN-Bruteforce command musk}, style=javaScriptCode]
-		bash ./android-pin-bruteforce crack -mask "1..1"
-	\end{lstlisting}
-	\item Per provare i PIN che terminano con 4 o 5, usa \newline
-	\begin{lstlisting}[ caption={Android-PIN-Bruteforce command musk}, style=javaScriptCode]
-		bash ./android-pin-bruteforce crack -mask ...[45]
-	\end{lstlisting}
-\end{itemize}
 
-I produttori di dispositivi creano le proprie schermate di blocco diverse da quelle predefinite o di serie di Android, per specificare una predefinita configurazione, bisogna aggiungere il comando –config ConfingFile, che permette di adattare i comandi inviati in base alla configurazione del dispositivo vittima.
+\section{Linux}
 
-Una funzione importante è il fatto che il dispositivo attacante in automatico ogni X tentativi si metterà in pausa, simulando il time out dovuto ai vari tentativi falliti.
+Un attaccante su un sistema Linux\cite{hash_Linux}, per prima cosa se ha i permessi di root, andrà vedere all'interno della cartella \textbf{ETC/SHADOW}
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=100mm]{Immagini/3/time_out.png}
-    \caption{Android-PIN-Bruteforce time out}
-    \label{fig:Android-PIN-Bruteforce}
+    \includegraphics[width=100mm]{Immagini/2/linux_1.png}
+    \caption{ETC/SHADOW}
+    \label{fig:ProcDump}
 \end{figure}
 
-Una delle problematiche di questo script è il fatto che non sia in grado di riconsocere quando il PIN che abbiamo utilizzato avrà successo, infatti lui, anche dopo aver sbloccato il dispositivo continuerà con i vari tentativi.
-
-\section{WBRUTE}
-
-Un’altra tecnica testata è quella WBRUTE\cite{wbrute}, sviluppata da wuseman. Questa è molto diversa e molto più potente da quella vista in precedenza, per diversi fattori :
-
-\begin{itemize}
-	\item Funzionante solo se il dispositivo vittima ha una versione Android 8.0
-	\item Permette di bypassare il time out dopo X tentativi errati
-	\item Deve essere abilitato ADB nel dispositivo vittima
-	\item Deve essere dato l’accesso al dispositivo attaccante dal dispositivo vittima
-	\item Permette di sapere il PIN corretto
-	\item Permette di sostituire il PIN con uno nuovo
-	\item Utilizzabile con PIN di 4 o 6 cifre
-	\item Il dispositivo vittima deve essere rootato
-\end{itemize}
-
-Questa tecnica sfrutta una vulnerabilità introdotto con Android 8.0, nata dalla rimozione della possibilità di impostare come PIN l’orario attuale, per un errore è stato lasciato il comando locksettings che permette di eseguire operazioni sul PIN, in questo caso di proverà a rimuovere il PIN corretto, andando a catturare il messaggio di successo in modo da avere una conferma che il PIN sia corretto.
-
-Il comando eseguito è :
-
-\begin{lstlisting}[ caption={Android-PIN-Bruteforce command}, style=javaScriptCode]
-	adb shell locksettings clear -old $i | grep "Lock credential cleared"
+\begin{lstlisting}[ caption={ETC/SHADOW}, style=javaScriptCode]
+    root@kali:~# cat etc/shadow
 \end{lstlisting}
 
-Dove \$i è il valore che verrà testato (da 0000 a 9999). Una volta trovato il PIN questo ci verrà mostrato a schermo sul device attacante e richiesto se si vuole modificare con un’altro. Questa tecnica permette di provare tutti e 9999 PIN in poco più di un’ora grazie al fatto che non si ha il problema del time out, ma come detto in precedenza, questa tecnica è poco applicabilile, per il fatto che si deve avere un dispositivo bloccato con Android 8.0, debug USB attivo e autorizzazione per il device attacante.
+Eseguendo questo comando sarà possibile ottenere informazioni sulle password degli utenti del sistema.
 
-Il tutto è Funzionante grazie allo strumento adb\cite{adb} che permette l’esecuzione di comandi direttamente sul dispositivo.
+Ogni riga di questo file contiene nove campi suddivisi in 
 
+\begin{lstlisting}[ caption={ETC/SHADOW composizione}, style=javaScriptCode]
+mark:$6$.n.:17736:0:99999:7:::
+[--] [----] [---] - [---] ----
+|      |      |   |   |   |||+-----------> 9. Inutilizzato
+|      |      |   |   |   ||+------------> 8. Data di scadenza
+|      |      |   |   |   |+-------------> 7. Periodo di inattivita
+|      |      |   |   |   +--------------> 6. Periodo per la scadenza
+|      |      |   |   +------------------> 5. Eta massima della password
+|      |      |   +----------------------> 4. Eta minima della password
+|      |      +--------------------------> 3. Ultima modifica della password
+|      +---------------------------------> 2. Password crittografata ($1$ -MD5, ecc ecc)
++----------------------------------------> 1. Username
+\end{lstlisting}
 
-\section{CiLocks}
+Vediamo un esempio :
 
-\section{Arkhota}
+\begin{lstlisting}[ caption={ETC/SHADOW esempio}, style=javaScriptCode]
+    mario:$1$bgfrJMa5U384smbQ$z6nch...:18009:0:120:7:14::
+\end{lstlisting}
 
+La linea sopra contiene le informazioni dell'utente "Mario"
 
+\begin{itemize}
+    \item La password è crittografata con SHA-512 (la password viene troncata per una migliore leggibilità).
+    \item La password è stata modificata l'ultima volta il 23 aprile 2019 - 18009.
+    \item Non esiste un'età minima per la password.
+    \item La password deve essere cambiata almeno ogni 120 giorni.
+    \item L'utente riceverà un messaggio di avviso sette giorni prima della data di scadenza della password.
+    \item Se l'utente non tenta di accedere al sistema 14 giorni dopo la scadenza della password, l'account verrà disabilitato.
+    \item Non esiste una data di scadenza dell'account.
+\end{itemize}
 
+Su Linux, inoltre è possibile recuperare le informazioni inerenti le password anche in altre directory come :
+
+\begin{itemize}
+    \item /home/*/./bash\_history
+    \item /home/*/.mysql\_history
+    \item /etc/cups/printers.conf
+    \item /home/*/.ssh/
+    \item /tmp/krb5cc\_*
+    \item /home/*/.gnupg/secring.gpgs
+\end{itemize}

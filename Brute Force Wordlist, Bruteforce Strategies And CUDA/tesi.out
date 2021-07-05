@@ -13,32 +13,33 @@
 \BOOKMARK [1][-]{section.2.5}{Rule Attack}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.6}{Mask Attack}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.7}{Strumenti}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{Extract Hashes}{}% 16
-\BOOKMARK [1][-]{section.3.1}{Windows}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.1.1}{CREDDUMP}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.2}{MIMIKATZ}{section.3.1}% 19
-\BOOKMARK [1][-]{section.3.2}{Linux}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Brute Force Dispositivi mobile}{}% 21
-\BOOKMARK [1][-]{section.4.1}{Brute Force con Dispositivi mobile}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.1.1}{NetHunter}{section.4.1}% 23
-\BOOKMARK [2][-]{subsection.4.1.2}{Android-PIN-Bruteforce}{section.4.1}% 24
-\BOOKMARK [1][-]{section.4.2}{WBRUTE}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.3}{CiLocks}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.4}{Arkhota}{chapter.4}% 27
-\BOOKMARK [0][-]{chapter.5}{Web Brute Force}{}% 28
-\BOOKMARK [1][-]{section.5.1}{Tecniche}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.2}{Strumenti}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.3}{Esempio}{chapter.5}% 31
-\BOOKMARK [0][-]{chapter.6}{Wi-Fi Brute Force}{}% 32
-\BOOKMARK [1][-]{section.6.1}{Tecniche}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.2}{Strumenti}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.3}{Esempio}{chapter.6}% 35
-\BOOKMARK [0][-]{chapter.7}{Parallelismo}{}% 36
-\BOOKMARK [1][-]{section.7.1}{Tecniche}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.2}{Strumenti}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.3}{Esempio}{chapter.7}% 39
-\BOOKMARK [0][-]{chapter.8}{CUDA}{}% 40
-\BOOKMARK [1][-]{section.8.1}{CPU vs GPU}{chapter.8}% 41
-\BOOKMARK [1][-]{section.8.2}{Strumenti}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.3}{Esempio}{chapter.8}% 43
-\BOOKMARK [0][-]{chapter.9}{Tecniche di difesa}{}% 44
+\BOOKMARK [2][-]{subsection.2.7.1}{John The Ripper}{section.2.7}% 16
+\BOOKMARK [2][-]{subsection.2.7.2}{Hashcat}{section.2.7}% 17
+\BOOKMARK [0][-]{chapter.3}{Extract Hashes}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Windows}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{CREDDUMP}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.2}{MIMIKATZ}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{Linux}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Brute Force Dispositivi mobile}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Brute Force con Dispositivi mobile}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.1.1}{NetHunter}{section.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.1.2}{Android-PIN-Bruteforce}{section.4.1}% 26
+\BOOKMARK [1][-]{section.4.2}{WBRUTE}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.3}{CiLocks}{chapter.4}% 28
+\BOOKMARK [0][-]{chapter.5}{Web Brute Force}{}% 29
+\BOOKMARK [1][-]{section.5.1}{Tecniche}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.2}{Strumenti}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.3}{Esempio}{chapter.5}% 32
+\BOOKMARK [0][-]{chapter.6}{Wi-Fi Brute Force}{}% 33
+\BOOKMARK [1][-]{section.6.1}{Tecniche}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.2}{Strumenti}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.3}{Esempio}{chapter.6}% 36
+\BOOKMARK [0][-]{chapter.7}{Parallelismo}{}% 37
+\BOOKMARK [1][-]{section.7.1}{Tecniche}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.2}{Strumenti}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.3}{Esempio}{chapter.7}% 40
+\BOOKMARK [0][-]{chapter.8}{CUDA}{}% 41
+\BOOKMARK [1][-]{section.8.1}{CPU vs GPU}{chapter.8}% 42
+\BOOKMARK [1][-]{section.8.2}{Strumenti}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.3}{Esempio}{chapter.8}% 44
+\BOOKMARK [0][-]{chapter.9}{Tecniche di difesa}{}% 45

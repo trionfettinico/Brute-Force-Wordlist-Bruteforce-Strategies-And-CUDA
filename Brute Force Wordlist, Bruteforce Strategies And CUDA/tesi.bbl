@@ -252,5 +252,14 @@
     \verb https://developer.android.com/studio/command-line/adb
     \endverb
   \endentry
+
+  \entry{CiLocks}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{CiLocks - Android LockScreen Bypass}
+    \verb{url}
+    \verb https://www.kitploit.com/2021/05/cilocks-android-lockscreen-bypass.ht
+    \verb ml
+    \endverb
+  \endentry
 \enddatalist
 \endinput

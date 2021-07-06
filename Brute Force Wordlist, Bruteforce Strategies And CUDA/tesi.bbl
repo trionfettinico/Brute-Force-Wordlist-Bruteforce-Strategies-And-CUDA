@@ -235,8 +235,8 @@
          familyi={w\bibinitperiod},
       }}%
     }
-    \strng{namehash}{w1}
-    \strng{fullhash}{w1}
+    \strng{namehash}{w2}
+    \strng{fullhash}{w2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{wbrute}
@@ -259,6 +259,62 @@
     \verb{url}
     \verb https://www.kitploit.com/2021/05/cilocks-android-lockscreen-bypass.ht
     \verb ml
+    \endverb
+  \endentry
+
+  \entry{wpscan}{online}{}
+    \name{author}{1}{}{%
+      {{hash=w}{%
+         family={wpscanteam},
+         familyi={w\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{w1}
+    \strng{fullhash}{w1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{WordPress Security Scanner}
+    \verb{url}
+    \verb https://github.com/wpscanteam/wpscan
+    \endverb
+  \endentry
+
+  \entry{wpscan_example}{online}{}
+    \name{author}{1}{}{%
+      {{hash=AR}{%
+         family={Abela},
+         familyi={A\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AR1}
+    \strng{fullhash}{AR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Verifica della forza della password degli utenti di WordPress
+  con WPScan}
+    \verb{url}
+    \verb https://www.wpwhitesecurity.com/strong-wordpress-passwords-wpscan/
+    \endverb
+  \endentry
+
+  \entry{gobuster}{online}{}
+    \name{author}{1}{}{%
+      {{hash=RO}{%
+         family={Reeves},
+         familyi={R\bibinitperiod},
+         given={OJ},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RO1}
+    \strng{fullhash}{RO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Gobuster v3.1.0}
+    \verb{url}
+    \verb https://github.com/OJ/gobuster
     \endverb
   \endentry
 \enddatalist

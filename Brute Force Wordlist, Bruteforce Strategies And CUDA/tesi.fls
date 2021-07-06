@@ -342,6 +342,15 @@ INPUT ./Immagini/3/cilocks.png
 INPUT ./Immagini/3/cilocks.png
 INPUT Capitolo5.tex
 INPUT Capitolo5.tex
+INPUT Immagini/5/hydra.png
+INPUT ./Immagini/5/hydra.png
+INPUT ./Immagini/5/hydra.png
+INPUT Immagini/5/wpscan_example.png
+INPUT ./Immagini/5/wpscan_example.png
+INPUT ./Immagini/5/wpscan_example.png
+INPUT Immagini/5/gobuster.png
+INPUT ./Immagini/5/gobuster.png
+INPUT ./Immagini/5/gobuster.png
 INPUT Capitolo6.tex
 INPUT Capitolo6.tex
 INPUT Capitolo7.tex

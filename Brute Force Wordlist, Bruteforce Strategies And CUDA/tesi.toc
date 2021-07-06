@@ -58,38 +58,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}CiLocks}{32}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Web Brute Force}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Online Password Cracking}{33}{chapter.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Strumenti}{33}{section.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.1}Hydra}{33}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}WpScan}{33}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}WpScan}{35}{subsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}GoBuster}{33}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.3}GoBuster}{36}{subsection.5.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Wi-Fi Brute Force}{35}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Wi-Fi Brute Force}{37}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Tecniche}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Tecniche}{37}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Strumenti}{35}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Strumenti}{37}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Esempio}{35}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Esempio}{37}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Parallelismo}{37}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Parallelismo}{39}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Tecniche}{37}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Tecniche}{39}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Strumenti}{37}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Strumenti}{39}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Esempio}{37}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Esempio}{39}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}CUDA}{39}{chapter.8}%
+\contentsline {chapter}{\numberline {8}CUDA}{41}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}CPU vs GPU}{39}{section.8.1}%
+\contentsline {section}{\numberline {8.1}CPU vs GPU}{41}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Strumenti}{39}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Strumenti}{41}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Esempio}{39}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Esempio}{41}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Tecniche di difesa}{41}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Tecniche di difesa}{43}{chapter.9}%

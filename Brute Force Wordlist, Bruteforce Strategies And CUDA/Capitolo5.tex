@@ -2,11 +2,11 @@
 
 Questo tipo di attacco si basa su un utente malintenzionato che proverà ad indovinare le credenziali di un utente per la pagina di accesso di un'applicazione web; per un server SSH o Telnet; o per un servizio di rete come LDAP (Lightweight Directory Access Protocol), uno dei protocolli di posta (SMTP, POP3 o IMAP), FTP o uno dei tanti altri.
 
-Gli attacchi di Brute Force online, a differenza di quella offline, vanno incontro a più problematiche, come alla larghezza di banda della reta, blocchi dell'account e rivelamento nei registri.
+Gli attacchi di Brute Force online, a differenza di quella offline, vanno incontro a più problematiche, come alla larghezza di banda della reta, blocco dell'account e rilevamento nei registri.
 
 Per gli attacchi online sono più adatti i Dictionary Attack che fanno uso di dizionari di piccole dimensioni e mirati piuttosto che all'uso di Brute Force.
 
-Il vantaggio principale di eseguire un Online Password Cracking è che un utente malintenzionato non ha bisogno di privilegi speciali per avviare l'attacco. Il computer attaccato fornisce alcuni servizi ai suoi utenti legittimi e un attacco di cracking delle password online riuscito consentirà all'attaccante di avere gli stessi privilegi dell'utente le cui credenziali sono state indovinate.
+Il vantaggio principale di eseguire un Online Password Cracking è che un utente malintenzionato non ha bisogno di privilegi speciali per avviare l'attacco. Il computer attaccato fornisce alcuni servizi ai suoi utenti legittimi e un attacco di cracking delle password online riuscito consente all'attaccante di avere gli stessi privilegi dell'utente le cui credenziali sono state indovinate.
 
 In secondo luogo, esiste un'ampia varietà di protocolli che possono essere attaccati. Qualsiasi protocollo di rete che accetta login e password può essere attaccato con Online Password Cracking.
 
@@ -32,7 +32,7 @@ La sintassi per eseguire un attacco con Hydra è la seguente :
     root@kali:~# hydra -L logins.txt -P pws.txt -M targets.txt ssh
 \end{lstlisting}
 
-In questo esempio di eseguira un semplice attacco, andando a testare lo user "root" e la password "toor" sull'indirizzo 127.0.0.1 utilizzando il protocollo ssh.
+In questo esempio di eseguirà un semplice attacco, andando a testare lo user "root" e la password "toor" sull'indirizzo 127.0.0.1 utilizzando il protocollo ssh.
 
 In Hydra abbiamo molte opzioni che se possono applicare per migliorare i nostri attacchi, come :
 \begin{itemize}
@@ -58,7 +58,7 @@ Vediamo insieme un attacco con Hydra
     root@kali:~# hydra -L user.txt -P pass.txt 172.17.0.1 ssh
 \end{lstlisting}
 
-In questo attacco andiamo ad utilizzare una lista di utenti e una lista di password per eseguire il Brute Force, in fine andremo a specificare l'indirizzo su cui eseguire il Brute Force e su queale servizio.
+In questo attacco andiamo ad utilizzare una lista di utenti e una lista di password per eseguire il Brute Force, infine andremo a specificare l'indirizzo su cui eseguire il Brute Force e su quale servizio.
 
 Possiamo vedere che si è trovata la corrispondenza per due utenti (nico e unicam), con le seguenti password (nico e camerino). 
 \newpage
@@ -89,7 +89,7 @@ Per testare più utenti, basta aggiungere dopo il comando \textbf{--usernames}, 
 
 \subsection{GoBuster}
 
-GoBuster\cite{gobuster} è un tool per il Brute Force scritto in Go, questo linguaggio permette di avere prestazioni altamente elevate a differenza di altri Strumenti che possiamo trovare che risutlano molto più lenti (per esempio Dirbuster, DirSearch, DIRB). Lo scopo di questo tool è quello di eseguire il Brute Force per scoprire le directory di un sito, sottodomini DNS e nomi di host virtuali sui server web.
+GoBuster\cite{gobuster} è un tool per il Brute Force scritto in Go, questo linguaggio permette di avere prestazioni altamente elevate a differenza di altri Strumenti che possiamo trovare che risultano molto più lenti (per esempio Dirbuster, DirSearch, DIRB). Lo scopo di questo tool è quello di eseguire il Brute Force per scoprire le directory di un sito, sottodomini DNS e nomi di host virtuali sui server web.
 
 \begin{figure}[htpb!]
     \centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.6.4)  7 JUL 2021 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.6.4)  8 JUL 2021 00:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,6 +1031,9 @@ File: Immagini/2/linux_1.png Graphic file (type png)
 Package pdftex.def Info: Immagini/2/linux_1.png  used on input line 125.
 (pdftex.def)             Requested size: 284.52756pt x 152.00378pt.
  [24 <./Immagini/2/mimikatz_3.PNG> <./Immagini/2/linux_1.png>]
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 143.
+
 Overfull \hbox (1.4351pt too wide) in paragraph at lines 148--149
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1040,19 +1043,19 @@ Overfull \hbox (1.4351pt too wide) in paragraph at lines 148--149
 
 ]
 Capitolo 4.
-<Immagini/3/nethunter_1.png, id=544, 1268.74pt x 881.2925pt>
+<Immagini/3/nethunter_1.png, id=545, 1268.74pt x 881.2925pt>
 File: Immagini/3/nethunter_1.png Graphic file (type png)
 <use Immagini/3/nethunter_1.png>
 Package pdftex.def Info: Immagini/3/nethunter_1.png  used on input line 18.
 (pdftex.def)             Requested size: 330.05196pt x 229.25166pt.
 [27 <./Immagini/3/nethunter_1.png (PNG copy)>]
-<Immagini/3/pin_brute_1.png, id=555, 992.70876pt x 686.565pt>
+<Immagini/3/pin_brute_1.png, id=556, 992.70876pt x 686.565pt>
 File: Immagini/3/pin_brute_1.png Graphic file (type png)
 <use Immagini/3/pin_brute_1.png>
 Package pdftex.def Info: Immagini/3/pin_brute_1.png  used on input line 37.
 (pdftex.def)             Requested size: 398.33858pt x 275.49065pt.
  [28 <./Immagini/3/pin_brute_1.png>]
-<Immagini/3/brute.jpg, id=565, 1284.8pt x 963.6pt>
+<Immagini/3/brute.jpg, id=566, 1284.8pt x 963.6pt>
 File: Immagini/3/brute.jpg Graphic file (type jpg)
 <use Immagini/3/brute.jpg>
 Package pdftex.def Info: Immagini/3/brute.jpg  used on input line 63.
@@ -1063,9 +1066,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 [29 <./Immagini/3/brute.jpg>]
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 74.
-
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -1075,7 +1075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-<Immagini/3/time_out.png, id=574, 461.725pt x 345.29pt>
+<Immagini/3/time_out.png, id=575, 461.725pt x 345.29pt>
 File: Immagini/3/time_out.png Graphic file (type png)
 <use Immagini/3/time_out.png>
 Package pdftex.def Info: Immagini/3/time_out.png  used on input line 92.
@@ -1185,15 +1185,20 @@ Package pdftex.def Info: Immagini/6/fern_3.jpg  used on input line 128.
 (pdftex.def)             Requested size: 412.56497pt x 314.60588pt.
 ) (./Capitolo7.tex [42 <./Immagini/6/fern_3.jpg>]
 Capitolo 7.
+<Immagini/7/cpu_gpu.PNG, id=729, 473.3685pt x 550.4565pt>
+File: Immagini/7/cpu_gpu.PNG Graphic file (type png)
+<use Immagini/7/cpu_gpu.PNG>
+Package pdftex.def Info: Immagini/7/cpu_gpu.PNG  used on input line 13.
+(pdftex.def)             Requested size: 412.56497pt x 479.76682pt.
 ) (./Capitolo8.tex [43
 
 
-] [44
-
-
-]
+] [44 <./Immagini/7/cpu_gpu.PNG>]
 Capitolo 8.
-) (./Capitolo9.tex [45] [46
+) (./Capitolo9.tex [45
+
+
+] [46
 
 
 ]
@@ -1209,17 +1214,20 @@ Capitolo 9.
 \tf@lof=\write9
 \openout9 = `tesi.lof'.
 
+
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
  [51
 
 
-] [52
-
-
-] (./tesi.lot)
+] [52] (./tesi.lot)
 \tf@lot=\write10
 \openout10 = `tesi.lot'.
 
- [53] [54
+ [53
+
+
+] [54
 
 
 ]
@@ -1295,18 +1303,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
 (\end occurred when \ifnum on line 1 was incomplete)
 (\end occurred when \iffalse on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 20831 strings out of 480616
- 337444 string characters out of 5906383
- 808767 words of memory out of 6000000
- 36027 multiletter control sequences out of 15000+600000
+ 20836 strings out of 480616
+ 337593 string characters out of 5906383
+ 807812 words of memory out of 6000000
+ 36029 multiletter control sequences out of 15000+600000
  555214 words of font info for 77 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  58i,12n,52p,1070b,2907s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on tesi.pdf (57 pages, 3713476 bytes).
+Output written on tesi.pdf (57 pages, 3765244 bytes).
 PDF statistics:
- 1059 PDF objects out of 1200 (max. 8388607)
- 912 compressed objects within 10 object streams
- 309 named destinations out of 1000 (max. 500000)
- 521 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 914 compressed objects within 10 object streams
+ 310 named destinations out of 1000 (max. 500000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 

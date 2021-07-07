@@ -317,8 +317,11 @@ INPUT ./Immagini/2/mimikatz_3.PNG
 INPUT Immagini/2/linux_1.png
 INPUT ./Immagini/2/linux_1.png
 INPUT ./Immagini/2/linux_1.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrro8t.tfm
 INPUT Capitolo4.tex
 INPUT Capitolo4.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrro8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrro8r.tfm
 INPUT Immagini/3/nethunter_1.png
 INPUT ./Immagini/3/nethunter_1.png
 INPUT ./Immagini/3/nethunter_1.png
@@ -328,12 +331,9 @@ INPUT ./Immagini/3/pin_brute_1.png
 INPUT Immagini/3/brute.jpg
 INPUT ./Immagini/3/brute.jpg
 INPUT ./Immagini/3/brute.jpg
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrro8t.tfm
 INPUT Immagini/3/time_out.png
 INPUT ./Immagini/3/time_out.png
 INPUT ./Immagini/3/time_out.png
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrro8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrro8r.tfm
 INPUT Immagini/3/wbrute.png
 INPUT ./Immagini/3/wbrute.png
 INPUT ./Immagini/3/wbrute.png
@@ -382,6 +382,9 @@ INPUT ./Immagini/6/fern_3.jpg
 INPUT ./Immagini/6/fern_3.jpg
 INPUT Capitolo7.tex
 INPUT Capitolo7.tex
+INPUT Immagini/7/cpu_gpu.PNG
+INPUT ./Immagini/7/cpu_gpu.PNG
+INPUT ./Immagini/7/cpu_gpu.PNG
 INPUT Capitolo8.tex
 INPUT Capitolo8.tex
 INPUT Capitolo9.tex

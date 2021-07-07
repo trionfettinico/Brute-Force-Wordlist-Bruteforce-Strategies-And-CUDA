@@ -2,19 +2,19 @@
 
 Un Brute Force su di una rete Wi-Fi, per prima cosa dobbiamo riuscire a catturare l'handshake che avviene tra il punto di accesso alla rete e il client, in questo handshake possiamo trovare informazioni inerenti alla password.
 
-Per eseguire questo tipo di attacco, un malintenzionato ha addisposizione molti strumenti : Aircrack-ng, Fern, Wifite, AirJack, ecc ecc . Ora andremo a vedere nel dettaglio alcuni di questi strumenti.
+Per eseguire questo tipo di attacco, un malintenzionato ha a disposizione molti strumenti : Aircrack-ng, Fern, Wifite, AirJack, ecc ecc . Ora andremo a vedere nel dettaglio alcuni di questi strumenti.
 
 \section{Aircrack-ng}
 
 Aircrack-ng\cite{aircrack} è uno strumento utilizzato per valutare la sicurezza delle rete Wi-Fi. Questo tool si compone di una suite di strumenti, ognuno con un proprio scopo :
 \begin{itemize}
     \item \textbf{Airmon-ng} utilizzato per impostare l'interfaccia di rete in monitor mode. 
-    \item \textbf{Airodump-ng} utilizzato per acquisire i pacchatti di autenticazione Wi-Fi.
-    \item \textbf{Aireplay-ng} utilizzato per eseguireun iniezione di frame al fine di generare traffico nella rete.
+    \item \textbf{Airodump-ng} utilizzato per acquisire i pacchetti di autenticazione Wi-Fi.
+    \item \textbf{Aireplay-ng} utilizzato per eseguire un'iniezione di frame al fine di generare traffico nella rete.
     \item \textbf{Aircrack-ng} utilizzato per violare le password Wi-Fi.
 \end{itemize}
 
-Per eseguire questo tipo dia attacco abbiamo bisogno di una particolare scheda di rete, questa deve supportare la monitor mode\footnote[1]{\textbf{monitor mode} : permette di catturare i pacchetti nella rete senza doversi connettere ad un access point (questa modalità funziona solo con reti wireless)}.
+Per eseguire questo tipo di attacco abbiamo bisogno di una particolare scheda di rete, questa deve supportare la monitor mode\footnote[1]{\textbf{monitor mode} : permette di catturare i pacchetti nella rete senza doversi connettere ad un access point (questa modalità funziona solo con reti wireless)}.
 
 Successivamente dobbiamo andare a configurare la nostra scheda, quindi utilizzeremo il comando riportato qui sotto per individuare la scheda che andremo ad utilizzare.
 
@@ -70,7 +70,7 @@ Dopo aver individuato la rete da attaccare ( in questo caso la rete scelta è Un
     \label{fig:Aircrack example}
 \end{figure}
 
-Per poter recuperare la password, dobbiamo attendere che venga recuperato il WPA handshake, ma ci potrebbe voler del tempo, quindi una cosa che si può fare è quella di andar a scollegare alcuni utenti dalla rete in modo che cosi debbano ricollegarsi, facendo partire un handshake. Questo è possibile grazie ad aireplay-ng.
+Per poter recuperare la password, dobbiamo attendere che venga recuperato il WPA handshake, ma ci potrebbe volere del tempo, quindi una cosa che si può fare è quella di andar a scollegare alcuni utenti dalla rete in modo che così debba ricollegarsi, facendo partire un handshake. Questo è possibile grazie ad aireplay-ng.
 
 \begin{lstlisting}[ caption={aireplay deauth}, style=javaScriptCode]
 	sudo aireplay-ng -0 5 -b #BSSID_AccessPoint -h BSSID_Client wlan0mon
@@ -92,7 +92,7 @@ Una volta che vediamo che compare la scritta WPA handshake in alto a destra, pos
     \label{fig:Aircrack example}
 \end{figure}
 
-Ora che abbiamo recuperato tutti i pacchetti di cui abbiamo bisogno per estrare la password della rete Wi Fi, dobbiamo eseguire un Brute Force su questi dati "grezzi". Per eseguire il Brute Force, possiamo utilizzare il comando aircrack-ng, che permette tramite l'utilizzo di un dizionario, di eseguire un attacco per individuare la password della rete.
+Ora che abbiamo recuperato tutti i pacchetti di cui abbiamo bisogno per estrarre la password della rete Wi Fi, dobbiamo eseguire un Brute Force su questi dati "grezzi". Per eseguire il Brute Force, possiamo utilizzare il comando aircrack-ng, che permette tramite l'utilizzo di un dizionario, di eseguire un attacco per individuare la password della rete.
 
 \begin{lstlisting}[ caption={aircrack Brute Force}, style=javaScriptCode]
     sudo aircrack-ng -z -b #BSSID_AccessPoint #Path_file_cap -w #Path_Wordlist
@@ -109,7 +109,7 @@ Ora che abbiamo recuperato tutti i pacchetti di cui abbiamo bisogno per estrare 
 
 \section{Fern}
 
-Fern\cite{fern} è un'altro strumento utilizzato per testare la sicurezza delle reti Wi-Fi, come Aircrack. Questo si differenzia per il modo in cui l'utente si interfaccia con il programma, mentre su Aircrack si utilizza un interfaccia a linea di comando, questo strumento ci permette di utilizzare un interfaccia grafica, rendendo l'utilizzo dello strumento più semplice.
+Fern\cite{fern} è un'altro strumento utilizzato per testare la sicurezza delle reti Wi-Fi, come Aircrack. Questo si differenzia per il modo in cui l'utente si interfaccia con il programma, mentre su Aircrack si utilizza un'interfaccia a linea di comando, questo strumento ci permette di utilizzare un'interfaccia grafica, rendendo l'utilizzo dello strumento più semplice.
 
 \begin{figure}[ht]
     \centering

@@ -1,8 +1,8 @@
 \chapter{Extract Hashes}
-Una parte fondamentale dei attacchi Brute-Force è il fatto di recuperare gli hash, in modo da poterli attaccare offline, andando a ridure cosi i tempi e le tracce che si possono lasciare.
+Una parte fondamentale dei attacchi Brute-Force è il fatto di recuperare gli hash, in modo da poterli attaccare offline, andando a ridurre così i tempi e le tracce che si possono lasciare.
 Questi hash possono trovarsi in vari sistemi, diversi tra loro e ognuno si differenzia per il modo e per i strumenti con cui si possono recuperare.
 \section{Windows}
-In Windows gli hash inerenti alle password dei account, sono archiviati in un file di database nel controller di dominio (NTDS.DIT) con alcune informazioni aggiuntive come le appartenenze ai gruppi e gli utenti.
+In Windows gli hash inerenti alle password degli account, sono archiviati in un file di database nel controller di dominio (NTDS.DIT) con alcune informazioni aggiuntive come le appartenenze ai gruppi e gli utenti.
 
 Il file NTDS.DIT è costantemente utilizzato dal sistema operativo e quindi non può essere copiato direttamente in un'altra posizione per l'estrazione delle informazioni.
 \begin{lstlisting}[ caption={NTDS.DIT Directory}, style=javaScriptCode]
@@ -140,10 +140,10 @@ mark:$6$.n.:17736:0:99999:7:::
 [--] [----] [---] - [---] ----
 |      |      |   |   |   |||+-----------> 9. Inutilizzato
 |      |      |   |   |   ||+------------> 8. Data di scadenza
-|      |      |   |   |   |+-------------> 7. Periodo di inattivita
+|      |      |   |   |   |+-------------> 7. Periodo di inattivita'
 |      |      |   |   |   +--------------> 6. Periodo per la scadenza
 |      |      |   |   +------------------> 5. Eta massima della password
-|      |      |   +----------------------> 4. Eta minima della password
+|      |      |   +----------------------> 4. Eta' minima della password
 |      |      +--------------------------> 3. Ultima modifica della password
 |      +---------------------------------> 2. Password crittografata ($1$ -MD5, ecc ecc)
 +----------------------------------------> 1. Username

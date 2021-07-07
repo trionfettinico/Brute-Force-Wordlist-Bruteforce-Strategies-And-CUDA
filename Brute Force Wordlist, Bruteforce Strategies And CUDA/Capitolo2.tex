@@ -74,7 +74,7 @@ Il successo di un attacco dipende largamente dal dizionario utilizzato, ma anche
 
 Nella rete possiamo trovare molti dizionari, ormai diventati standard grazie allora loro vasta scelta di password contenute e alla loro suddivisione per tipo ( password account / wi-fi / ecc ecc ), uno dei più utilizzati è \textbf{rockyou}, che contiene 14,341,564 password uniche , usate in 32,603,388 account.
 
-Inoltre grazie a diversi strumenti possiamo generarci dei dizionari personalizzati, in base ad esempio ad alcune informazioni che abbiamo recuperato sulla vittima del nostro attacco, lo strumento che ci permette di fare questo è \textbf{CRUNCH}\cite{CRUNCH}, che attraverso il seguente comando permette la creazioni di elenchi di parole in cui è possibile specificare un set di caratteri standard o un set di caratteri specifici. Crunch può generare tutte le possibili combinazioni e permutazioni. 
+Inoltre grazie a diversi strumenti possiamo generare dei dizionari personalizzati, in base ad esempio ad alcune informazioni che abbiamo recuperato sulla vittima del nostro attacco, lo strumento che ci permette di fare questo è \textbf{CRUNCH}\cite{CRUNCH}, che attraverso il seguente comando permette la creazioni di elenchi di parole in cui è possibile specificare un set di caratteri standard o un set di caratteri specifici. Crunch può generare tutte le possibili combinazioni e permutazioni. 
 
 Esempio :
 
@@ -112,7 +112,7 @@ Una tabella arcobaleno è un vasto repository di dati che viene utilizzato per a
 Le Rainbow Table presentano alcuni distinti vantaggi rispetto ad altri metodi per decifrare le password. L'esecuzione della funzione hash non è il problema per i criminali informatici in questione, poiché tutto è precompilato e i database contenenti tutte le informazioni di cui hanno bisogno sono disponibili online. In effetti, ciò che devono eseguire è solo una semplice operazione di ricerca e confronto su una tabella.
 
 Tuttavia, gli attacchi arcobaleno non sono lo strumento universale per gli hacker. Hanno i loro limiti, come l'enorme quantità di spazio di archiviazione necessaria per archiviare le tabelle che utilizzano - e le tabelle in questione sono davvero piuttosto grandi. Le dimensioni regolari di una tabella arcobaleno contenente gli hash di tutte le possibili 8 password dei simboli che includono la maggior parte dei simboli che si possono pensare possono essere grandi quanto 160 GB - e lo spazio di archiviazione necessario per l'inclusione di password più lunghe nella tabella aumenta esponenzialmente con ogni bit aggiunto.
-Per evitare di cadere vittime di un attacco Rainbow Table, oltre a seguire tutte le buone pratiche durante la creazione di una password, questo tipo di attacchi possono essere facilmente prevenuti utilizzando la tecnica del Salt da parte dello sviluppatore del sistema IT in questione. Salt è un bit casuale di dati che viene passato nella funzione hash insieme al testo in chairo. Ciò garantisce che ogni password abbia un hash generato univoco, rendendo impossibile eseguire questo tipo di attacco.
+Per evitare di cadere vittime di un attacco Rainbow Table, oltre a seguire tutte le buone pratiche durante la creazione di una password, questo tipo di attacchi possono essere facilmente prevenuti utilizzando la tecnica del Salt da parte dello sviluppatore del sistema IT in questione. Salt è un bit casuale di dati che viene passato nella funzione hash insieme al testo in chiaro. Ciò garantisce che ogni password abbia un hash generato univoco, rendendo impossibile eseguire questo tipo di attacco.
 
 \section{Rule Attack}
 L'attacco basato su regole\cite{Rule_based} è come un linguaggio di programmazione progettato per la generazione di password candidate. Ha funzioni per modificare, tagliare o estendere le parole e ha operatori condizionali per saltarne alcune. Ciò lo rende l'attacco più flessibile, accurato ed efficiente.
@@ -164,7 +164,7 @@ Un altro esempio in cui è possibile applicare il mascheramento è quando si con
 
 \section{Strumenti}
 
-Per eseguire il brute force, possiamo trovare moltissimi tool nel web, ma ci sono due programmi che spuntano tra di questi, per la loro efficacia e per la loro flessibilita nel permettere di eseguire diversi tipi di attacchi.
+Per eseguire il brute force, possiamo trovare moltissimi tool nel web, ma ci sono due programmi che spuntano tra di questi, per la loro efficacia e per la loro flessibilità nel permettere di eseguire diversi tipi di attacchi.
 
 \subsection{John The Ripper}
 
@@ -206,7 +206,7 @@ Le tipologie di attacchi che possiamo eseguire con questo strumento sono :
     \end{lstlisting}
 \end{itemize}
 
-Un'altra funziona di Jhon The Ripper è quella di utilizzare le CPU in parallelo, questo è possibile tramite l'utilizzo del comando :
+Un'altra funziona di John The Ripper è quella di utilizzare le CPU in parallelo, questo è possibile tramite l'utilizzo del comando :
 
 \begin{lstlisting}[caption={John the ripper Multi-CPU example 8 core}, style=javaScriptCode]
     john --wordlist=dict.txt hash.txt --rules --dev=<#> --fork=8
@@ -248,7 +248,7 @@ I tipi di attacchi supportati sono :
     \end{lstlisting}
 \end{itemize}
 
-Esempio di un Brute Force con Hascat 
+Esempio di un Brute Force con Hashcat 
 
 \begin{figure}[h!]
 	\centering

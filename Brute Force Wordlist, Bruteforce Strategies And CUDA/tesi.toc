@@ -70,26 +70,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Wi-Fi Brute Force}{37}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Tecniche}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Aircrack-ng}{37}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Strumenti}{37}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Fern}{41}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Esempio}{37}{section.6.3}%
+\contentsline {chapter}{\numberline {7}CUDA}{43}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Parallelismo}{39}{chapter.7}%
+\contentsline {section}{\numberline {7.1}CPU vs GPU}{43}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Tecniche}{39}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Strumenti}{43}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Strumenti}{39}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Esempio}{43}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Esempio}{39}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Parallelismo}{45}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}CUDA}{41}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Tecniche}{45}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}CPU vs GPU}{41}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Strumenti}{45}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Strumenti}{41}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Esempio}{45}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Esempio}{41}{section.8.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Tecniche di difesa}{43}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Tecniche di difesa}{47}{chapter.9}%

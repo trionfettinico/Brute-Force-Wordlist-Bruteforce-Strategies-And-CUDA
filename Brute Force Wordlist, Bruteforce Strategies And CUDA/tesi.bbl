@@ -317,5 +317,32 @@
     \verb https://github.com/OJ/gobuster
     \endverb
   \endentry
+
+  \entry{aircrack}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Aircrack-ng}
+    \verb{url}
+    \verb https://github.com/aircrack-ng/aircrack-ng
+    \endverb
+  \endentry
+
+  \entry{fern}{online}{}
+    \name{author}{1}{}{%
+      {{hash=bS}{%
+         family={brun},
+         familyi={b\bibinitperiod},
+         given={Sophie},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{bS1}
+    \strng{fullhash}{bS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fern-wifi-cracker}
+    \verb{url}
+    \verb https://gitlab.com/kalilinux/packages/fern-wifi-cracker
+    \endverb
+  \endentry
 \enddatalist
 \endinput

@@ -76,3 +76,15 @@
 \contentsline {lstlisting}{\numberline {5.3}WpScan code example}{35}{lstlisting.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {5.4}GoBuster code example}{36}{lstlisting.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {6.1}Configurazione scheda di rete}{37}{lstlisting.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {6.2}Configurazione scheda di rete}{38}{lstlisting.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {6.3}Scansione delle reti}{38}{lstlisting.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {6.4}dump dei pacchetti}{39}{lstlisting.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {6.5}aireplay deauth}{39}{lstlisting.6.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {6.6}aircrack Brute Force}{40}{lstlisting.6.6}%

@@ -344,5 +344,36 @@
     \verb https://gitlab.com/kalilinux/packages/fern-wifi-cracker
     \endverb
   \endentry
+
+  \entry{hendarto2017performance}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=HILS}{%
+         family={Hendarto},
+         familyi={H\bibinitperiod},
+         given={Ignatius Leo\bibnamedelima Sri},
+         giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kurniawan},
+         familyi={K\bibinitperiod},
+         given={Yusuf},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{HILSKY1}
+    \strng{fullhash}{HILSKY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2017 International Conference on Computer, Control,
+  Informatics and its Applications (IC3INA)}
+    \field{pages}{35\bibrangedash 40}
+    \field{title}{Performance factors of a CUDA GPU parallel program: A case
+  study on a PDF password cracking brute-force algorithm}
+    \field{year}{2017}
+  \endentry
 \enddatalist
 \endinput

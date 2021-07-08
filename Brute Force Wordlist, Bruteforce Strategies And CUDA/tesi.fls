@@ -382,6 +382,9 @@ INPUT ./Immagini/6/fern_3.jpg
 INPUT ./Immagini/6/fern_3.jpg
 INPUT Capitolo7.tex
 INPUT Capitolo7.tex
+INPUT Immagini/7/GPU_hashcat.png
+INPUT ./Immagini/7/GPU_hashcat.png
+INPUT ./Immagini/7/GPU_hashcat.png
 INPUT Immagini/7/cpu_gpu.PNG
 INPUT ./Immagini/7/cpu_gpu.PNG
 INPUT ./Immagini/7/cpu_gpu.PNG

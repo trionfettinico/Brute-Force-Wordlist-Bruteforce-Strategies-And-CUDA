@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.6.4)  8 JUL 2021 00:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.6.4)  8 JUL 2021 01:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -887,7 +887,7 @@ Package biblatex Info: ... file 'tesi.bbl' found.
 Package biblatex Info: Reference section=0 on input line 35.
 Package biblatex Info: Reference segment=0 on input line 35.
 \c@lstlisting=\count455
-<Immagini/stemma.png, id=184, 83.3514pt x 103.587pt>
+<Immagini/stemma.png, id=176, 83.3514pt x 103.587pt>
 File: Immagini/stemma.png Graphic file (type png)
 <use Immagini/stemma.png>
 Package pdftex.def Info: Immagini/stemma.png  used on input line 37.
@@ -917,34 +917,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Capitolo 1.
-<Immagini/introduzione/banner.png, id=266, 233.673pt x 103.587pt>
+<Immagini/introduzione/banner.png, id=256, 233.673pt x 103.587pt>
 File: Immagini/introduzione/banner.png Graphic file (type png)
 <use Immagini/introduzione/banner.png>
 Package pdftex.def Info: Immagini/introduzione/banner.png  used on input line 8.
 (pdftex.def)             Requested size: 327.20668pt x 145.06032pt.
-<Immagini/introduzione/hash.png, id=269, 564.60938pt x 202.50656pt>
+<Immagini/introduzione/hash.png, id=259, 564.60938pt x 202.50656pt>
 File: Immagini/introduzione/hash.png Graphic file (type png)
 <use Immagini/introduzione/hash.png>
 Package pdftex.def Info: Immagini/introduzione/hash.png  used on input line 22.
 (pdftex.def)             Requested size: 327.20668pt x 117.35808pt.
 [7 <./Immagini/introduzione/banner.png>] [8 <./Immagini/introduzione/hash.png>]
-<Immagini/introduzione/Basic_Pattern.png, id=287, 504.88625pt x 57.21375pt>
+<Immagini/introduzione/Basic_Pattern.png, id=277, 504.88625pt x 57.21375pt>
 File: Immagini/introduzione/Basic_Pattern.png Graphic file (type png)
 <use Immagini/introduzione/Basic_Pattern.png>
 Package pdftex.def Info: Immagini/introduzione/Basic_Pattern.png  used on input line 61.
 (pdftex.def)             Requested size: 412.56497pt x 46.7523pt.
-<Immagini/introduzione/Macro_pattern.png, id=288, 500.87125pt x 63.23625pt>
+<Immagini/introduzione/Macro_pattern.png, id=278, 500.87125pt x 63.23625pt>
 File: Immagini/introduzione/Macro_pattern.png Graphic file (type png)
 <use Immagini/introduzione/Macro_pattern.png>
 Package pdftex.def Info: Immagini/introduzione/Macro_pattern.png  used on input line 70.
 (pdftex.def)             Requested size: 412.56497pt x 52.08948pt.
  [9 <./Immagini/introduzione/Basic_Pattern.png>]
-<Immagini/introduzione/Micro_Pattern.png, id=296, 506.89375pt x 58.2175pt>
+<Immagini/introduzione/Micro_Pattern.png, id=286, 506.89375pt x 58.2175pt>
 File: Immagini/introduzione/Micro_Pattern.png Graphic file (type png)
 <use Immagini/introduzione/Micro_Pattern.png>
 Package pdftex.def Info: Immagini/introduzione/Micro_Pattern.png  used on input line 79.
 (pdftex.def)             Requested size: 412.56497pt x 47.38509pt.
-<Immagini/introduzione/20-60-20.png, id=297, 881.2925pt x 551.05875pt>
+<Immagini/introduzione/20-60-20.png, id=287, 881.2925pt x 551.05875pt>
 File: Immagini/introduzione/20-60-20.png Graphic file (type png)
 <use Immagini/introduzione/20-60-20.png>
 Package pdftex.def Info: Immagini/introduzione/20-60-20.png  used on input line 99.
@@ -983,7 +983,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--190
  []
 
 [18] [19]
-<Immagini/1/hashcat_show.png, id=431, 655.44875pt x 392.46625pt>
+<Immagini/1/hashcat_show.png, id=421, 655.44875pt x 392.46625pt>
 File: Immagini/1/hashcat_show.png Graphic file (type png)
 <use Immagini/1/hashcat_show.png>
 Package pdftex.def Info: Immagini/1/hashcat_show.png  used on input line 255.
@@ -994,12 +994,12 @@ Capitolo 3.
 
 
 ]
-<Immagini/2/mimikatz.jpg, id=466, 1416.29124pt x 746.79pt>
+<Immagini/2/mimikatz.jpg, id=456, 1416.29124pt x 746.79pt>
 File: Immagini/2/mimikatz.jpg Graphic file (type jpg)
 <use Immagini/2/mimikatz.jpg>
 Package pdftex.def Info: Immagini/2/mimikatz.jpg  used on input line 58.
 (pdftex.def)             Requested size: 341.43306pt x 180.03091pt.
-<Immagini/2/procdump.jpg, id=469, 1412.27625pt x 738.76pt>
+<Immagini/2/procdump.jpg, id=459, 1412.27625pt x 738.76pt>
 File: Immagini/2/procdump.jpg Graphic file (type jpg)
 <use Immagini/2/procdump.jpg>
 Package pdftex.def Info: Immagini/2/procdump.jpg  used on input line 67.
@@ -1009,23 +1009,23 @@ Package pdftex.def Info: Immagini/2/procdump.jpg  used on input line 67.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22 <./Immagini/2/mimikatz.jpg>]
-<Immagini/2/mimikatz_1.PNG, id=489, 406.51875pt x 111.41624pt>
+<Immagini/2/mimikatz_1.PNG, id=479, 406.51875pt x 111.41624pt>
 File: Immagini/2/mimikatz_1.PNG Graphic file (type png)
 <use Immagini/2/mimikatz_1.PNG>
 Package pdftex.def Info: Immagini/2/mimikatz_1.PNG  used on input line 84.
 (pdftex.def)             Requested size: 284.52756pt x 77.98402pt.
-<Immagini/2/mimikatz_2.PNG, id=490, 411.939pt x 187.29974pt>
+<Immagini/2/mimikatz_2.PNG, id=480, 411.939pt x 187.29974pt>
 File: Immagini/2/mimikatz_2.PNG Graphic file (type png)
 <use Immagini/2/mimikatz_2.PNG>
 Package pdftex.def Info: Immagini/2/mimikatz_2.PNG  used on input line 93.
 (pdftex.def)             Requested size: 284.52756pt x 129.36841pt.
  [23 <./Immagini/2/procdump.jpg> <./Immagini/2/mimikatz_1.PNG> <./Immagini/2/mimikatz_2.PNG>]
-<Immagini/2/mimikatz_3.PNG, id=504, 375.804pt x 186.6975pt>
+<Immagini/2/mimikatz_3.PNG, id=494, 375.804pt x 186.6975pt>
 File: Immagini/2/mimikatz_3.PNG Graphic file (type png)
 <use Immagini/2/mimikatz_3.PNG>
 Package pdftex.def Info: Immagini/2/mimikatz_3.PNG  used on input line 111.
 (pdftex.def)             Requested size: 284.52756pt x 141.35884pt.
-<Immagini/2/linux_1.png, id=506, 747.79375pt x 399.4925pt>
+<Immagini/2/linux_1.png, id=496, 747.79375pt x 399.4925pt>
 File: Immagini/2/linux_1.png Graphic file (type png)
 <use Immagini/2/linux_1.png>
 Package pdftex.def Info: Immagini/2/linux_1.png  used on input line 125.
@@ -1043,19 +1043,19 @@ Overfull \hbox (1.4351pt too wide) in paragraph at lines 148--149
 
 ]
 Capitolo 4.
-<Immagini/3/nethunter_1.png, id=545, 1268.74pt x 881.2925pt>
+<Immagini/3/nethunter_1.png, id=535, 1268.74pt x 881.2925pt>
 File: Immagini/3/nethunter_1.png Graphic file (type png)
 <use Immagini/3/nethunter_1.png>
 Package pdftex.def Info: Immagini/3/nethunter_1.png  used on input line 18.
 (pdftex.def)             Requested size: 330.05196pt x 229.25166pt.
 [27 <./Immagini/3/nethunter_1.png (PNG copy)>]
-<Immagini/3/pin_brute_1.png, id=556, 992.70876pt x 686.565pt>
+<Immagini/3/pin_brute_1.png, id=546, 992.70876pt x 686.565pt>
 File: Immagini/3/pin_brute_1.png Graphic file (type png)
 <use Immagini/3/pin_brute_1.png>
 Package pdftex.def Info: Immagini/3/pin_brute_1.png  used on input line 37.
 (pdftex.def)             Requested size: 398.33858pt x 275.49065pt.
  [28 <./Immagini/3/pin_brute_1.png>]
-<Immagini/3/brute.jpg, id=566, 1284.8pt x 963.6pt>
+<Immagini/3/brute.jpg, id=556, 1284.8pt x 963.6pt>
 File: Immagini/3/brute.jpg Graphic file (type jpg)
 <use Immagini/3/brute.jpg>
 Package pdftex.def Info: Immagini/3/brute.jpg  used on input line 63.
@@ -1075,19 +1075,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-<Immagini/3/time_out.png, id=575, 461.725pt x 345.29pt>
+<Immagini/3/time_out.png, id=564, 461.725pt x 345.29pt>
 File: Immagini/3/time_out.png Graphic file (type png)
 <use Immagini/3/time_out.png>
 Package pdftex.def Info: Immagini/3/time_out.png  used on input line 92.
 (pdftex.def)             Requested size: 284.52756pt x 212.7762pt.
 [30 <./Immagini/3/time_out.png>]
-<Immagini/3/wbrute.png, id=589, 430.60875pt x 310.15875pt>
+<Immagini/3/wbrute.png, id=579, 430.60875pt x 310.15875pt>
 File: Immagini/3/wbrute.png Graphic file (type png)
 <use Immagini/3/wbrute.png>
 Package pdftex.def Info: Immagini/3/wbrute.png  used on input line 118.
 (pdftex.def)             Requested size: 284.52756pt x 204.94203pt.
  [31 <./Immagini/3/wbrute.png>]
-<Immagini/3/cilocks.png, id=602, 1078.0275pt x 1246.6575pt>
+<Immagini/3/cilocks.png, id=592, 1078.0275pt x 1246.6575pt>
 File: Immagini/3/cilocks.png Graphic file (type png)
 <use Immagini/3/cilocks.png>
 Package pdftex.def Info: Immagini/3/cilocks.png  used on input line 140.
@@ -1103,13 +1103,13 @@ Overfull \hbox (14.69655pt too wide) in paragraph at lines 23--24
 
 
 ]
-<Immagini/5/hydra.png, id=615, 1045.9075pt x 271.0125pt>
+<Immagini/5/hydra.png, id=605, 1045.9075pt x 271.0125pt>
 File: Immagini/5/hydra.png Graphic file (type png)
 <use Immagini/5/hydra.png>
 Package pdftex.def Info: Immagini/5/hydra.png  used on input line 52.
 (pdftex.def)             Requested size: 412.56497pt x 106.90195pt.
  [34 <./Immagini/5/hydra.png>]
-<Immagini/5/wpscan_example.png, id=631, 640.64343pt x 329.73187pt>
+<Immagini/5/wpscan_example.png, id=621, 640.64343pt x 329.73187pt>
 File: Immagini/5/wpscan_example.png Graphic file (type png)
 <use Immagini/5/wpscan_example.png>
 Package pdftex.def Info: Immagini/5/wpscan_example.png  used on input line 74.
@@ -1120,14 +1120,14 @@ Overfull \hbox (5.03519pt too wide) in paragraph at lines 80--81
  []
 
 [35 <./Immagini/5/wpscan_example.png>]
-<Immagini/5/gobuster.png, id=644, 792.9625pt x 451.6875pt>
+<Immagini/5/gobuster.png, id=634, 792.9625pt x 451.6875pt>
 File: Immagini/5/gobuster.png Graphic file (type png)
 <use Immagini/5/gobuster.png>
 Package pdftex.def Info: Immagini/5/gobuster.png  used on input line 96.
 (pdftex.def)             Requested size: 412.56497pt x 235.0098pt.
 ) (./Capitolo6.tex [36 <./Immagini/5/gobuster.png>]
 Capitolo 6.
-<Immagini/6/aircrack_1.png, id=656, 846.16125pt x 276.03125pt>
+<Immagini/6/aircrack_1.png, id=646, 846.16125pt x 276.03125pt>
 File: Immagini/6/aircrack_1.png Graphic file (type png)
 <use Immagini/6/aircrack_1.png>
 Package pdftex.def Info: Immagini/6/aircrack_1.png  used on input line 27.
@@ -1139,61 +1139,71 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-<Immagini/6/aircrack_2.png, id=666, 746.79pt x 301.125pt>
+<Immagini/6/aircrack_2.png, id=656, 746.79pt x 301.125pt>
 File: Immagini/6/aircrack_2.png Graphic file (type png)
 <use Immagini/6/aircrack_2.png>
 Package pdftex.def Info: Immagini/6/aircrack_2.png  used on input line 41.
 (pdftex.def)             Requested size: 412.56497pt x 166.35442pt.
-<Immagini/6/aircrack_3.png, id=667, 749.80125pt x 353.32pt>
+<Immagini/6/aircrack_3.png, id=657, 749.80125pt x 353.32pt>
 File: Immagini/6/aircrack_3.png Graphic file (type png)
 <use Immagini/6/aircrack_3.png>
 Package pdftex.def Info: Immagini/6/aircrack_3.png  used on input line 53.
 (pdftex.def)             Requested size: 412.56497pt x 194.40747pt.
  [38 <./Immagini/6/aircrack_1.png> <./Immagini/6/aircrack_2.png>]
-<Immagini/6/aircrack_4.png, id=682, 705.63625pt x 194.7275pt>
+<Immagini/6/aircrack_4.png, id=672, 705.63625pt x 194.7275pt>
 File: Immagini/6/aircrack_4.png Graphic file (type png)
 <use Immagini/6/aircrack_4.png>
 Package pdftex.def Info: Immagini/6/aircrack_4.png  used on input line 68.
 (pdftex.def)             Requested size: 412.56497pt x 113.85123pt.
-<Immagini/6/aircrack_7.png, id=683, 698.61pt x 133.49875pt>
+<Immagini/6/aircrack_7.png, id=673, 698.61pt x 133.49875pt>
 File: Immagini/6/aircrack_7.png Graphic file (type png)
 <use Immagini/6/aircrack_7.png>
 Package pdftex.def Info: Immagini/6/aircrack_7.png  used on input line 81.
 (pdftex.def)             Requested size: 412.56497pt x 78.83893pt.
  [39 <./Immagini/6/aircrack_3.png> <./Immagini/6/aircrack_4.png>]
-<Immagini/6/aircrack_5.png, id=698, 735.74875pt x 188.705pt>
+<Immagini/6/aircrack_5.png, id=688, 735.74875pt x 188.705pt>
 File: Immagini/6/aircrack_5.png Graphic file (type png)
 <use Immagini/6/aircrack_5.png>
 Package pdftex.def Info: Immagini/6/aircrack_5.png  used on input line 90.
 (pdftex.def)             Requested size: 412.56497pt x 105.81804pt.
-<Immagini/6/ircrack_6.png, id=699, 631.35875pt x 341.275pt>
+<Immagini/6/ircrack_6.png, id=689, 631.35875pt x 341.275pt>
 File: Immagini/6/ircrack_6.png Graphic file (type png)
 <use Immagini/6/ircrack_6.png>
 Package pdftex.def Info: Immagini/6/ircrack_6.png  used on input line 103.
 (pdftex.def)             Requested size: 412.56497pt x 223.0082pt.
  [40 <./Immagini/6/aircrack_7.png> <./Immagini/6/aircrack_5.png> <./Immagini/6/ircrack_6.png>]
-<Immagini/6/fern_1.png, id=714, 646.415pt x 649.42625pt>
+<Immagini/6/fern_1.png, id=703, 646.415pt x 649.42625pt>
 File: Immagini/6/fern_1.png Graphic file (type png)
 <use Immagini/6/fern_1.png>
 Package pdftex.def Info: Immagini/6/fern_1.png  used on input line 116.
 (pdftex.def)             Requested size: 412.56497pt x 414.48189pt.
  [41 <./Immagini/6/fern_1.png>]
-<Immagini/6/fern_3.jpg, id=722, 675.27281pt x 514.92375pt>
+<Immagini/6/fern_3.jpg, id=712, 675.27281pt x 514.92375pt>
 File: Immagini/6/fern_3.jpg Graphic file (type jpg)
 <use Immagini/6/fern_3.jpg>
 Package pdftex.def Info: Immagini/6/fern_3.jpg  used on input line 128.
 (pdftex.def)             Requested size: 412.56497pt x 314.60588pt.
 ) (./Capitolo7.tex [42 <./Immagini/6/fern_3.jpg>]
 Capitolo 7.
+<Immagini/7/GPU_hashcat.png, id=720, 596.2275pt x 275.0275pt>
+File: Immagini/7/GPU_hashcat.png Graphic file (type png)
+<use Immagini/7/GPU_hashcat.png>
+Package pdftex.def Info: Immagini/7/GPU_hashcat.png  used on input line 15.
+(pdftex.def)             Requested size: 412.56497pt x 190.30634pt.
+[43
+
+
+ <./Immagini/7/GPU_hashcat.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
 <Immagini/7/cpu_gpu.PNG, id=729, 473.3685pt x 550.4565pt>
 File: Immagini/7/cpu_gpu.PNG Graphic file (type png)
 <use Immagini/7/cpu_gpu.PNG>
-Package pdftex.def Info: Immagini/7/cpu_gpu.PNG  used on input line 13.
+Package pdftex.def Info: Immagini/7/cpu_gpu.PNG  used on input line 32.
 (pdftex.def)             Requested size: 412.56497pt x 479.76682pt.
-) (./Capitolo8.tex [43
-
-
-] [44 <./Immagini/7/cpu_gpu.PNG>]
+) (./Capitolo8.tex [44 <./Immagini/7/cpu_gpu.PNG>]
 Capitolo 8.
 ) (./Capitolo9.tex [45
 
@@ -1210,17 +1220,17 @@ Capitolo 9.
 \tf@lol=\write8
 \openout8 = `tesi.lol'.
 
- [50] (./tesi.lof)
-\tf@lof=\write9
-\openout9 = `tesi.lof'.
-
-
+ [50] (./tesi.lof
 Underfull \vbox (badness 1092) has occurred while \output is active []
 
  [51
 
 
-] [52] (./tesi.lot)
+])
+\tf@lof=\write9
+\openout9 = `tesi.lof'.
+
+ [52] (./tesi.lot)
 \tf@lot=\write10
 \openout10 = `tesi.lot'.
 
@@ -1274,7 +1284,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 0D313A66C48FAA7D8692E126810136BA;2623.
+(rerunfilecheck)             Checksum: 64A2959944014840FA0E9EE20D6B0010;2513.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1303,18 +1313,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
 (\end occurred when \ifnum on line 1 was incomplete)
 (\end occurred when \iffalse on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 20836 strings out of 480616
- 337593 string characters out of 5906383
- 807812 words of memory out of 6000000
- 36029 multiletter control sequences out of 15000+600000
+ 20845 strings out of 480616
+ 337962 string characters out of 5906383
+ 807890 words of memory out of 6000000
+ 36037 multiletter control sequences out of 15000+600000
  555214 words of font info for 77 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  58i,12n,52p,1070b,2907s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on tesi.pdf (57 pages, 3765244 bytes).
+Output written on tesi.pdf (57 pages, 3786879 bytes).
 PDF statistics:
- 1063 PDF objects out of 1200 (max. 8388607)
- 914 compressed objects within 10 object streams
+ 1059 PDF objects out of 1200 (max. 8388607)
+ 908 compressed objects within 10 object streams
  310 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 515 words of extra memory for PDF output out of 10000 (max. 10000000)
 

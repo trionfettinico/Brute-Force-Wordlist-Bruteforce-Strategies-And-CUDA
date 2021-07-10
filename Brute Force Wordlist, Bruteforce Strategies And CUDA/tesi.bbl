@@ -17,13 +17,24 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{hash}{online}{}
+  \entry{hash}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SW}{%
+         family={Stallings},
+         familyi={S\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Mcgraw-Hill}%
+    }
+    \strng{namehash}{SW1}
+    \strng{fullhash}{SW1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{FUNZIONI HASH}
-    \verb{url}
-    \verb http://www.di-srv.unisa.it/~ads/corso-security/www/CORSO-0304/PAROS/h
-    \verb ash.htm
-    \endverb
+    \field{title}{Crittografia e sicurezza delle reti}
+    \field{year}{2003}
   \endentry
 
   \entry{hashcrack}{book}{}

@@ -1,12 +1,12 @@
 \chapter{Distribuited Brute Force}
 
-Per poter migliorare l'efficenza dei attacchi di Brute Force, oltre all'utilizzo di CUDA, sono stati creati dei strumenti che attraverso la rete, permettono di unire la potenza computazionale di diverse macchine, in modo da distribuire il carico di lavoro dei processi più complessi.
+Per poter migliorare l'efficienza dei attacchi di Brute Force, oltre all'utilizzo di CUDA, sono stati creati dei strumenti che attraverso la rete, permettono di unire la potenza computazionale di diverse macchine, in modo da distribuire il carico di lavoro dei processi più complessi.
 
 Nella rete possiamo trovare diversi strumenti che ci permettono di eseguire questo tipo di operazione, come per esempio Hashtopolis, Hashstack, Disthc , ecc ecc.
 
 \section{Hashtopolis}
 
-Hashtopolis \cite{hashtopolis} è un applicazione multi piattaforma per il cracking distribuito che nasce nel 2018. L’applicazione utilizza per la parte di cracking Hashcat il quale viene installato on-demand per mezzo degli agent. 
+Hashtopolis \cite{hashtopolis} è un'applicazione multi piattaforma per il cracking distribuito che nasce nel 2018. L’applicazione utilizza per la parte di cracking Hashcat il quale viene installato on-demand per mezzo degli agent. 
 
 \begin{figure}[ht]
     \centering
@@ -30,7 +30,7 @@ L’interfaccia di Admin è l’unico punto di accesso per tutti gli agent. Il c
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{Immagini/8/hashtopolis_new_agent.png}
-    \caption{Hashtopolis aggiunta di nuovi aggenti}
+    \caption{Hashtopolis aggiunta di nuovi agenti}
 \end{figure}
 
 Successivamente dobbiamo caricare nella piattaforma il file su cui eseguire l'attacco, andando a specificare il tipo di criptazione applicata su quei dati ed eventuali parametri passati.
@@ -38,15 +38,15 @@ Successivamente dobbiamo caricare nella piattaforma il file su cui eseguire l'at
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{Immagini/8/hashtopolis_2.png}
-    \caption{Hashtopolis aggiunta lista hash da attaccare}
+    \caption{Hashtopolis aggiungi lista hash da attaccare}
 \end{figure}
 
-Hashtopolis ci peremtte di eseguire diversi tipi di attacco, per esempio possiamo eseguire attacchi Ruled based o Dictionary Attack, ma per eseguire questi tipi di attacchi, dobbiamo passare dei file di "configurazione", in questo caso noi per eseguire un Dictionary Attack, gli passiamo il dizionario rockyou, uno dei dizionari più utilizzati per eseguire questo tipo di operazione.
+Hashtopolis ci peremette di eseguire diversi tipi di attacco, per esempio possiamo eseguire attacchi Ruled based o Dictionary Attack, ma per eseguire questi tipi di attacchi, dobbiamo passare dei file di "configurazione", in questo caso noi per eseguire un Dictionary Attack, gli passiamo il dizionario rockyou, uno dei dizionari più utilizzati per eseguire questo tipo di operazione.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{Immagini/8/hashtopolis_3.png}
-    \caption{Hashtopolis aggiunta dizionario}
+    \caption{Hashtopolis aggiungi dizionario}
 \end{figure}
 
 Una volta configurati i file di cui si ha bisogno per eseguire l'attacco, si passa alla creazione della task, qui andremo ad associare :

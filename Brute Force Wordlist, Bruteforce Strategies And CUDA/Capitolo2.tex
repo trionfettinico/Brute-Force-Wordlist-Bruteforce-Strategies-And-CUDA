@@ -42,7 +42,7 @@ A seconda della lunghezza e complessità della password, la sua individuazione p
     \centering
     \begin{tabular}{ |c|c|c|c| }
         \hline
-        Key Lenght (Chars) & Time To Decrypt \\
+        Key Length (Chars) & Time To Decrypt \\
         \hline
         8                  & 15 min          \\
         \hline
@@ -131,7 +131,7 @@ Le Rainbow Table presentano alcuni distinti vantaggi rispetto ad altri metodi pe
 
 Tuttavia, gli attacchi arcobaleno non sono lo strumento universale per gli hacker. Hanno i loro limiti, come l'enorme quantità di spazio di archiviazione necessaria per archiviare le tabelle che utilizzano - e le tabelle in questione sono davvero piuttosto grandi. Le dimensioni regolari di una tabella arcobaleno contenente gli hash di tutte le possibili password composte da 8 simboli (lettere/numeri/caratteri speciali) possono essere grandi 160 GB.
 
-Uno strumento utilizzato per eseguire questo tipo di attacco è RainbowCrack\cite{rainbowcrack}, questo strumento, ci permette non solo di eseguire questo tipo di attocco, ma anche di generare delle table da utilizzare per gli attacchi. Per generare le tabelle, la sintassi del comando è la seguente :
+Uno strumento utilizzato per eseguire questo tipo di attacco è RainbowCrack\cite{rainbowcrack}, questo strumento, ci permette non solo di eseguire questo tipo di attacco, ma anche di generare delle table da utilizzare per gli attacchi. Per generare le tabelle, la sintassi del comando è la seguente :
 
 \begin{lstlisting}[caption={RainbowCrack generazione tabelle}, style=javaScriptCode]
 rtgen hash_algorithm charset plaintext_len_min plaintext_len_max table_index 
@@ -152,14 +152,14 @@ Una volta generata la tabella, per utilizzarla dobbiamo prima caricarla, eseguen
     root@kali:~# sudo rtsort .
     \end{lstlisting}
 
-Dopo aver caricato la tabella possiamo passare ad eseguire l'attacco, per esegurie l'attacco possiamo passare direttamente un hash ho passargli un file contenente gli hash da attaccare.
+Dopo aver caricato la tabella possiamo passare ad eseguire l'attacco, per eseguire l'attacco possiamo passare direttamente un hash ho passargli un file contenente gli hash da attaccare.
 
 \begin{lstlisting}[caption={RainbowCrack generazione tabelle}, style=javaScriptCode]
     root@kali:~# sudo rcrack -h hash_da_attaccare
     root@kali:~# sudo rcrack -l path_file_da_attaccare
     \end{lstlisting}
 \newpage
-Ecco un esempio di un'attacco :
+Ecco un esempio di un attacco :
 
 \begin{figure}[h!]
     \centering
@@ -173,7 +173,7 @@ Salt è un bit casuale di dati che viene passato nella funzione hash insieme al 
 
 \section{Rule Attack}
 L'attacco basato su regole\cite{Rule_based} è come un linguaggio di programmazione progettato per la generazione di password candidate. Ha funzioni per modificare, tagliare o estendere le parole e ha operatori condizionali per saltarne alcune. Ciò lo rende l'attacco più flessibile, accurato ed efficiente.
-Questo tipo di attacco è applicabile sulla maggioranza dei strumenti utilizzati per il Brute Force, gli esempi che andremo a vedere sono svolti utilizzando \textbf{Hashcat}, qui le regole vengono scritte in un file di configurazione, che successivamente verrà utilizzato in un comando per applicare le modifiche.
+Questo tipo di attacco è applicabile nella maggioranza dei strumenti utilizzati per il Brute Force, gli esempi che andremo a vedere sono svolti utilizzando \textbf{Hashcat}, qui le regole vengono scritte in un file di configurazione, che successivamente verrà utilizzato in un comando per applicare le modifiche.
 
 \begin{lstlisting}[caption={utilizzo di regole su Hashcat }, style=javaScriptCode]
     root@kali:~# hashcat -r file_rules --stdout file_password
@@ -267,13 +267,13 @@ Ha una lunghezza di 7 caratteri e per ognuno può essere maiuscolo (26 potenzial
 
 Supponiamo ora di sapere che gli ultimi tre caratteri sono numeri. Ciò ridurrebbe drasticamente il potenziale spazio delle chiavi poiché non sarebbe necessario provare password con lettere o simboli negli ultimi tre spazi.
 
-Vediamo un esempio pratico di un Mask attack. Sappiamo che la password del hash che abbiamo recuperato è lunga 6 e compasta da tutte lettere minuscuole, il comando che andreamo ad eseguire (con Hashcat) è il seguente :
+Vediamo un esempio pratico di un Mask attack. Sappiamo che la password del hash che abbiamo recuperato è lunga 6 e composta da tutte lettere minuscole, il comando che andremo ad eseguire (con Hashcat) è il seguente :
 
 \begin{lstlisting}[caption={Esempio rule attack wordlist}, style=javaScriptCode]
     root@kali:~# hashcat -m 0 -a 3 2906de51196732ba0b97eb5360c1baeb ?l?l?l?l?l?l
     \end{lstlisting}
 
-Ed otteremo il seguente risultato :
+Ed otterremo il seguente risultato :
 
 \begin{figure}[h!]
     \centering

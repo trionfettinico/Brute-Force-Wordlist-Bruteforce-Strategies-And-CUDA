@@ -6,7 +6,7 @@ Come abbiamo potute vedere, le tecniche e i strumenti per eseguire questo tipo d
 
 \section{Sviluppi futuri}
 
-Uno dei problemi più grandi per chi attacca gli hash, è quello di incontrare algoritmi di criptazione troppo, complessi, ci sono alcuni algoritmi come : AES-256 e RSA, che per essere decriptati, richiedono una potenza di calcolo elevatissima, quasi infinitesimale, ma con l'avvenire delle nuove tecnologie e con il futuro avvento dei computer quantisci, anche questi algoritmi, potrebbere diventare obsoleti.  
+Uno dei problemi più grandi per chi attacca gli hash, è quello di incontrare algoritmi di criptazione troppo, complessi, ci sono alcuni algoritmi come : AES-256 e RSA, che per essere decriptati, richiedono una potenza di calcolo elevatissima, quasi infinitesimale, ma con l'avvenire delle nuove tecnologie e con il futuro avvento dei computer quantisci, anche questi algoritmi, potrebbere diventare obsoleti.
 
 Il più grande problema nell'eseguire un Brute Force, è quello di avere la potenza di calcolo adeguata. Quindi i prossimi passi per gli attaccanti è quello o di trovare nuovi approcci per le esecuzione del Brute Force o quello di attendere l'arrivo di dispositivi con la potenza di calcolo necessaria.
 
@@ -16,7 +16,7 @@ Le varie tecniche e strumenti che abbiamo visto, anche se efficaci, hanno alcune
 
 \begin{itemize}
     \item \textbf{Dictionary Attack} -> Le password non è contenuta nel dizionario, l'attacco non andrà a buon fine.
-    \item \textbf{Musk Attack} -> bisogna conoscere la maschera da applicare
+    \item \textbf{Mask Attack} -> bisogna conoscere la maschera da applicare
     \item \textbf{Rainbow Table } -> I file delle Rainbow Table, sono file di grandi dimensioni, viene richiesto un enorme spazio di archiviazione
     \item \textbf{Wi-Fi Brute Force} -> Bisogna essere in possesso di una scheda di rete che abbia la monitor mode
     \item \textbf{Hashtoplis } -> Utilizzando Mysql, le query a volte molto pesanti, possono risultare molto lente su database.
@@ -28,15 +28,35 @@ La miglior protezione è una buona password, che dobbiamo imparare a considerare
 
 Una buona pratica per mettere a punto una password sicura è ideare parole chiave che utilizzino una combinazione di lettere maiuscole, minuscole, numeri e caratteri speciali. La si può ottenere, senza per forza rinunciare alla memorabilità. Un esempio sono gli acronimi di una frase semplice e rappresentativa come:
 
-Io mi chiamo Nico e ho 1 fratello
+\medskip
 
-che diventa:
+Io mi chiamo Nico e ho 1 fratello  -->  ImcNeh1F
 
-ImcNeh1F
+\medskip
 
-Un’altra soluzione è l’utilizzo di un generatore di password. Online se ne trovano molti gratuiti e affidabili.
+Usa un gestore di password. L'installazione di un gestore di password automatizza la creazione e il monitoraggio delle informazioni di accesso online. Questi ti consentono di accedere a tutti i tuoi account accedendo prima al gestore di password. Puoi quindi creare password estremamente lunghe e complesse per tutti i siti che visiti, archiviarle in modo sicuro e devi solo ricordare l'unica password principale.
 
+Usa password univoche per ogni sito che utilizzi. Per evitare di essere vittima del riempimento delle credenziali, non dovresti mai riutilizzare una password. Se vuoi aumentare la tua sicurezza, usa anche un nome utente diverso per ogni sito. Puoi evitare che altri account vengano compromessi se uno dei tuoi viene violato.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=90mm]{Immagini/9/simpson.png}
 \end{figure}
+
+\newpage
+
+\subsection{10 Comandamenti del Hash Cracking}
+
+\begin{enumerate}
+
+    \item Conoscerai i tipi di hash e la loro origine/funzione
+    \item Conoscerai i punti di forza e di debolezza dei software di cracking
+    \item Studierai e applicherai tecniche di analisi delle password
+    \item Devi essere esperto nei metodi di estrazione dell'hash
+    \item Creerai dizionari personalizzati/mirati
+    \item Conoscerai le capacità delle tue piattaforme di cracking
+    \item Comprenderai la psicologia/comportamento umano di base
+    \item Creerai maschere, regole personalizzate
+    \item Sperimenterai continuamente nuove tecniche
+    \item Sosterrai i tuoi compagni di cracking membri della comunità
+
+\end{enumerate}

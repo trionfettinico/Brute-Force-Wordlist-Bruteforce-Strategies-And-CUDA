@@ -45,6 +45,22 @@
     \field{year}{2019}
   \endentry
 
+  \entry{John_The_Ripper}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{John the Ripper password cracker}
+    \verb{url}
+    \verb https://github.com/openwall/john
+    \endverb
+  \endentry
+
+  \entry{hashcat}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{hashcat}
+    \verb{url}
+    \verb https://hashcat.net/wiki/doku.php?id=hashcat
+    \endverb
+  \endentry
+
   \entry{Offline_attack}{online}{}
     \name{author}{1}{}{%
       {{hash=MM}{%
@@ -63,22 +79,6 @@
     \verb{url}
     \verb https://www.triaxiomsecurity.com/whats-the-difference-between-offline
     \verb -and-online-password-attacks/
-    \endverb
-  \endentry
-
-  \entry{hashcat}{online}{}
-    \field{labeltitlesource}{title}
-    \field{title}{hashcat}
-    \verb{url}
-    \verb https://hashcat.net/wiki/doku.php?id=hashcat
-    \endverb
-  \endentry
-
-  \entry{John_The_Ripper}{online}{}
-    \field{labeltitlesource}{title}
-    \field{title}{John the Ripper password cracker}
-    \verb{url}
-    \verb https://www.openwall.com/john/
     \endverb
   \endentry
 
@@ -124,7 +124,7 @@
     \field{labeltitlesource}{title}
     \field{title}{crunch Package Description}
     \verb{url}
-    \verb https://tools.kali.org/password-attacks/crunch
+    \verb https://gitlab.com/kalilinux/packages/crunch
     \endverb
   \endentry
 
@@ -135,6 +135,25 @@
     \verb{url}
     \verb https://www.cyclonis.com/it/rainbow-table-password-attack-che-cose-e-
     \verb come-proteggersi-da-esso/
+    \endverb
+  \endentry
+
+  \entry{rainbowcrack}{online}{}
+    \name{author}{1}{}{%
+      {{hash=OP}{%
+         family={Oechslin's},
+         familyi={O\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OP1}
+    \strng{fullhash}{OP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{rainbowcrack}
+    \verb{url}
+    \verb https://gitlab.com/kalilinux/packages/rainbowcrack
     \endverb
   \endentry
 
@@ -241,7 +260,7 @@
     \field{labeltitlesource}{title}
     \field{title}{wbrute}
     \verb{url}
-    \verb https://www.kali.org/docs/nethunter/building-nethunter/
+    \verb https://github.com/wuseman/WBRUTER
     \endverb
   \endentry
 
@@ -257,8 +276,15 @@
     \field{labeltitlesource}{title}
     \field{title}{CiLocks - Android LockScreen Bypass}
     \verb{url}
-    \verb https://www.kitploit.com/2021/05/cilocks-android-lockscreen-bypass.ht
-    \verb ml
+    \verb https://github.com/tegal1337/CiLocks
+    \endverb
+  \endentry
+
+  \entry{hydra}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Hydra}
+    \verb{url}
+    \verb https://gitlab.com/kalilinux/packages/hydra
     \endverb
   \endentry
 
@@ -374,6 +400,25 @@
     \field{title}{Performance factors of a CUDA GPU parallel program: A case
   study on a PDF password cracking brute-force algorithm}
     \field{year}{2017}
+  \endentry
+
+  \entry{hashtopolis}{online}{}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Coray},
+         familyi={C\bibinitperiod},
+         given={Sein},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS1}
+    \strng{fullhash}{CS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{hashtopolis}
+    \verb{url}
+    \verb https://github.com/hashtopolis
+    \endverb
   \endentry
 \enddatalist
 \endinput

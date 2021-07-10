@@ -2,7 +2,7 @@
 Una parte fondamentale dei attacchi Brute-Force è il fatto di recuperare gli hash, in modo da poterli attaccare offline, andando a ridurre così i tempi e le tracce che si possono lasciare.
 Questi hash possono trovarsi in vari sistemi, diversi tra loro e ognuno si differenzia per il modo e per i strumenti con cui si possono recuperare.
 \section{Windows}
-In Windows gli hash inerenti alle password degli account, sono archiviati in un file di database nel controller di dominio (NTDS.DIT) con alcune informazioni aggiuntive come le appartenenze ai gruppi e gli utenti.
+In Windows gli hash inerenti alle password degli account, sono archiviati in un file di un database nel controller di dominio (NTDS.DIT) con alcune informazioni aggiuntive come le appartenenze ai gruppi e gli utenti.
 
 Il file NTDS.DIT è costantemente utilizzato dal sistema operativo e quindi non può essere copiato direttamente in un'altra posizione per l'estrazione delle informazioni.
 \begin{lstlisting}[ caption={NTDS.DIT Directory}, style=javaScriptCode]
@@ -77,7 +77,7 @@ Per eseguire il Dump, basta digitare il seguente comando (una volta scaricato pr
     C:\procdump.exe -accepteula -ma lsass.exe lsass.dmp
 \end{lstlisting}
 
-Una volta svolto il Dump con procDump, possiamo passare a Mimikatz. 
+Una volta svolto il Dump con procDump e spostato il file nella macchina che eseguirà l'attacco, possiamo passare a Mimikatz. 
 Apriamo mimikatz con i permessi di amministratore.
 \begin{figure}[h!]
     \centering
@@ -140,13 +140,13 @@ mark:$6$.n.:17736:0:99999:7:::
 [--] [----] [---] - [---] ----
 |      |      |   |   |   |||+-----------> 9. Inutilizzato
 |      |      |   |   |   ||+------------> 8. Data di scadenza
-|      |      |   |   |   |+-------------> 7. Periodo di inattivita'
+|      |      |   |   |   |+-------------> 7. Periodo di inattivita
 |      |      |   |   |   +--------------> 6. Periodo per la scadenza
-|      |      |   |   +------------------> 5. Eta massima della password
-|      |      |   +----------------------> 4. Eta' minima della password
-|      |      +--------------------------> 3. Ultima modifica della password
-|      +---------------------------------> 2. Password crittografata ($1$ -MD5, ecc ecc)
-+----------------------------------------> 1. Username
+|      |      |   |   +-----------------> 5. Eta massima della password
+|      |      |   +--------------------> 4. Eta minima della password
+|      |      +-----------------------> 3. Ultima modifica della password
+|      +----------------------------> 2. Password crittografata ($1$ -MD5, ecc ecc)
++----------------------------------> 1. Username
 \end{lstlisting}
 
 Vediamo un esempio :
@@ -177,3 +177,70 @@ Su Linux, inoltre è possibile recuperare le informazioni inerenti le password a
     \item /tmp/krb5cc\_*
     \item /home/*/.gnupg/secring.gpgs
 \end{itemize}
+
+\subsection{File}
+
+Un'atra operazione possibile è quella di recuperare gli hash delle password dei file protetti. Questo tipo di operazione è possibile grazie allo strumento John The Ripper.
+
+John The Ripper mette a disposizione un set di strumenti per estrarre gli hash delle password di diversi tipi di file, ecco riportati alcuni di questi strumenti :
+
+
+\begin{table}[htbp]
+    \begin{center}
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Nome} & \textbf{Descrizione} \\
+    \hline
+    1password2john.py & estrazione hash 1Password \\
+    \hline
+    7z2john.py & estrazione hash 7zip \\
+    \hline
+    bitcoin2john.py & estrazione hash da vecchi wallet Bitcoin \\
+    \hline
+    blockchain2john.py & estrazione wallet da Blockchain \\
+    \hline
+    rar2john & estrazione hash da RAR 3.x \\
+    \hline
+    office2john.py & estrazione hash da file Microsoft Office \\
+    \hline
+    pdf2john.py & estrazione hash da PDF criptati \\
+    \hline
+    ssh2john & estrazione chiavi SSH private \\
+    \hline
+    zip2john & processa ZIP file per estrarre hash nel formato JTR \\
+    \hline
+    
+
+    \end{tabular}
+    \end{center}
+    \caption{John The Ripper estrazione hash da file}
+    \label{tab:browser}
+    \end{table}
+
+    Ecco un esempio:
+
+    Si ha un file ZIP criptato con la seguente chiave : "ciao".
+
+    Per prima cosa dobbiamo andare ad estrarre l'hash della password da questo e salvarla su di un'altro file. Per fare questo andremo ad utilizzare il comando \textbf{zip2john}.
+
+    \begin{lstlisting}[ caption={estrazione hash da file zip}, style=javaScriptCode]
+        root@kali:~# zip2john file.zip > output.txt
+    \end{lstlisting}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\linewidth]{Immagini/3/hash_ex.png}
+        \caption{estrazione hash da file zip}
+    \end{figure}
+
+    Una volta recuperato l'hash della password del file, possiamo passare ad eseguire il Brute Force su di questo. Per recuperare la password useremo sempre John The Ripper, andando però a specificare il formato del file da cui è stato estrapolato, per fare questo aggiungeremo il parametro \textbf{--format}.  
+
+    \begin{lstlisting}[ caption={conversione hash file zip nella password}, style=javaScriptCode]
+        root@kali:~# sudo john --format=zip hash.txt
+    \end{lstlisting}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\linewidth]{Immagini/3/hash_ex_2.png}
+        \caption{conversione hash file zip nella password}
+    \end{figure}

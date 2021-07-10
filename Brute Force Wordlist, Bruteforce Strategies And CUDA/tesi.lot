@@ -4,11 +4,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Tempo di Brute-Force (Password che comprende 0-9,a-z,A-Z)\cite {hashcrack}\relax }}{14}{table.caption.8}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces semplice funzione hash con utilizzo di XOR bit a bit.\relax }}{9}{table.caption.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Tempo di Brute-Force (Password che comprende 0-9,a-z,A-Z)\cite {hashcrack}\relax }}{18}{table.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces Esempio regole hashcat\relax }}{23}{table.caption.15}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces John The Ripper estrazione hash da file\relax }}{32}{table.caption.23}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

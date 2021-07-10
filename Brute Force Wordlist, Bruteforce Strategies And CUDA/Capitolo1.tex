@@ -3,7 +3,7 @@
 Nella crittografia , un attacco di Brute Force consiste in un utente malintenzionato che invia molte password con la speranza di indovinare una combinazione correttamente.
 
 L'aggressore controlla sistematicamente tutte le possibili password finché non trova quella corretta. In alternativa, l'attaccante può tentare di indovinare la chiave che in genere viene creata dalla password utilizzando una funzione di derivazione della chiave.
-\begin{figure}[h] 
+\begin{figure}[h]
     \centering
     \includegraphics[width=115mm]{Immagini/introduzione/banner.png}
 \end{figure}
@@ -20,13 +20,60 @@ Le funzioni hash \cite{hash} sono particolari funzioni che permettono di dare a 
 \begin{figure}[h]
     \centering
     \includegraphics[width=115mm]{Immagini/introduzione/hash.png}
-    \caption{hash}
     \label{fig:hash}
 \end{figure}
 
 In altre parole creano una stringa associata al messaggio da spedire e per il quale, una volta applicata la funzione, non dovrebbe essere più possibile ritornare al testo originale.
-Quindi, il valore hash h(M) è una rappresentazione non ambigua e non falsificabile di un messaggio M, facile da calcolare e tale da comprimere il messaggio stesso.
-Tra le principali proprietà delle funzioni hash ricordiamo che: sono facili da calcolare, godono della proprietà di sicurezza forte (è computazionalmente difficile trovare 2 messaggi diversi con lo stesso valore hash), godono della proprietà di sicurezza debole (dato M, è computazionalmente difficile trovare M’ tale che h(M) = h(M’)), e sono One-way, cioè, dato y è computazionalmente difficile trovare M tale che y = h(M).
+Un valore hash \(h\) viene generato da una funzione A con la seguente forma :
+\[ h = H(M)\]
+dove M è un messaggio di lunghezza variabile e H(M) è un valore hash di lunghezza fissa.
+Lo scopo di una funzione hash è quello di produrre una sorta di "impronta digitale" di un file, messaggio o blocco di dati. Per poter essere utile per l'autenticazione dei messaggi, una funzione hash H deve avere le seguenti proprietà.
+\begin{enumerate}
+    \item H può essere applicata a un blocco di di dati di qualsiasi dimensione.
+    \item H produce un output di lunghezza fissa.
+    \item Per un determinato valore \(h\) è computazionalmente impossibile trovare \(x\) tale che \(H(x)\). In generale questa proprietà è detta \textbf{monodirezionalità}.
+    \item Per un determinato blocco \(x\) è computazionalmente impossibile trovare \(y \neq x\) tale che \(H(y) = H(x)\). Questa proprietà è chiamata \textbf{resistenza debole alle collisioni}.
+    \item È computazionalmente impossibile trovare una coppia \((x, y)\) tale che \(H(x) = H(y)\). Questa viene chiamata \textbf{resistenza forte alle collisioni}.
+\end{enumerate}
+
+Il terzo punto, ci indica che è facile generare un codice sulla base di un messaggio, mentre è praticamente impossibile generare impossibile generare un messaggio sulla base di un codice. Questa proprietà è importante se la tecnica di autenticazione prevede l'uso di un valore segreto. Il valore segreto non viene però inviato; al contrario se la funzione hash non fosse monodirezionale, un estraneo con in mano sia il valore segreto che l'hash generato \(C = H(S\ped{AB} \| M)\), sarebbe in grado di invertire l'operazione. Poiché ha sia \(M\) che \(S\ped{AB} \| M\), potrà ricuperare \(S\ped{AB}\).
+
+Tutte le funzioni hash utilizzano i seguenti principi generali. L'input viene elaborato un blocco alla volta in modo iterativo per produrre una funzione hash di \(n\) bit.
+
+Una delle funzioni hash più semplici è una operazione di OR esclusivo bit a bit (XOR) applicata a ciascun blocco.
+\[ C\ped{i} = b\ped{i1} \oplus b\ped{i2} \oplus ... \oplus b\ped{im}\]
+\newline
+dove : 
+
+\begin{itemize}
+    \item \(C\ped{i}\) = i-esimo bit del codice hash, \(1 \leq i \leq n\).
+    \item m = numero di blocchi di \(n\) bit di input.
+    \item b\ped{ij} = i-esimo bit nel j-esimo blocco.
+    \item \(\oplus\) = operazione XOR.
+\end{itemize}
+
+\begin{table}[htbp]
+    \begin{center}
+
+    \begin{tabular}{|l|l|l|l|l|}
+        \hline
+                    & Bit 1                     & Bit 2                     & ...                       & Bit \(n\)                 \\
+                    \hline
+        Blocco 1    & b\ped{11}                 & b\ped{21}                 &                           & b\ped{n1}                 \\
+        \hline
+        Blocco 2    & b\ped{12}                 & b\ped{22}                 &                           & b\ped{n2}                 \\
+        \hline
+                    & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} \\
+        \hline
+        Blocco m    & b\ped{1m}                 & b\ped{2m}                 &                           & b\ped{nm}                 \\
+        \hline
+        Codice hash & C\ped{1}                  & C\ped{2}                  &                           & C\ped{n} \\
+        \hline
+    \end{tabular}
+\end{center}
+\caption{semplice funzione hash con utilizzo di XOR bit a bit.}
+\end{table}
+
 \subsection{Types}
 Le principali funzioni hash presenti attualmente sono:
 \begin{itemize}
@@ -94,6 +141,8 @@ La regola 20-60-20 è un modo per visualizzare il livello di distribuzione delle
     \item Il 20\% delle password sono rigide, lunghe, complesse o con caratteristiche uniche.
 \end{itemize}
 
+\newpage
+
 \begin{figure}[htpb!]
     \centering
     \includegraphics[width=\linewidth]{Immagini/introduzione/20-60-20.png}
@@ -101,4 +150,110 @@ La regola 20-60-20 è un modo per visualizzare il livello di distribuzione delle
     \label{fig:rocker}
 \end{figure}
 
+\section{Strumenti}
+
+Per eseguire il brute force, possiamo trovare moltissimi tool nel web, ma ci sono due programmi che spuntano tra di questi, per la loro efficacia e per la loro flessibilità nel permettere di eseguire diversi tipi di attacchi.
+
+\subsection{John The Ripper}
+
+\begin{figure}[htpb!]
+    \centering
+    \includegraphics[width=60mm]{Immagini/1/john.png}
+    \caption{John The Ripper logo}
+\end{figure}
+
+John the Ripper \cite{John_The_Ripper} è un software per craccare password che inizialmente era disponibile solo su UNIX. Solo dal 2012 è stato possibile eseguirlo su 15 piattaforme diverse, tra cui Windows.
+
+Il programma combina diverse modalità di rottura in un unico programma ed è completamente configurabile in base alle proprie necessità.
+\newpage
+Le tipologie di attacchi che possiamo eseguire con questo strumento sono :
+\begin{itemize}
+    \item Bruteforce Attack \newline
+          \begin{lstlisting}[caption={John the ripper Bruteforce}, style=javaScriptCode]
+        john --format=#type hash.txt
+    \end{lstlisting}
+    \item Dictionary Attack \newline
+          \begin{lstlisting}[caption={John the ripper Dictionary}, style=javaScriptCode]
+        john --format=#type --wordlist=dict.txt hash.txt
+    \end{lstlisting}
+    \item Mask Attack \newline
+          \begin{lstlisting}[caption={John the ripper Mask}, style=javaScriptCode]
+        john --format=#type --mask=?l?l?l?l?l?l -min-len=6
+    \end{lstlisting}
+    \item Incremental Attack \newline
+          \begin{lstlisting}[caption={John the ripper Incremental}, style=javaScriptCode]
+        john --incremental hash.txt
+    \end{lstlisting}
+    \item Dictionary + Rule Attack \newline
+          In aggiunta al Dictionary attack possiamo applicare delle regole, queste regole vengono inserite tramite il comando \textbf{--rules=??}.\newline
+          Questi regole sono :
+          \begin{itemize}
+              \item[$\square$] \textbf{--rules=Single}
+              \item[$\square$] \textbf{--rules=Wordlist}
+              \item[$\square$] \textbf{--rules=Extra}
+              \item[$\square$] \textbf{--rules=Jumbo}
+              \item[$\square$] \textbf{--rules=KoreLogic}
+              \item[$\square$] \textbf{--rules=All}
+          \end{itemize}
+          \begin{lstlisting}[caption={John the ripper Dictionary + Rule }, style=javaScriptCode]
+        john --format=#type --wordlist=dict.txt --rules
+    \end{lstlisting}
+\end{itemize}
+
+Un'altra funziona di John The Ripper è quella di utilizzare le CPU in parallelo, questo è possibile tramite l'utilizzo del comando :
+
+\begin{lstlisting}[caption={John the ripper Multi-CPU example 8 core}, style=javaScriptCode]
+    john --wordlist=dict.txt hash.txt --rules --dev=<#> --fork=8
+\end{lstlisting}
+
+Inoltre è possibile eseguire John The Ripper sfruttando la GPU con il comando 
+\begin{lstlisting}[caption={John the ripper GPU example}, style=javaScriptCode]
+    john --list=formats --format=cuda #for CUDA
+    john --list=formats --format=opencl #for Opencl\end{lstlisting}
+\subsection{Hashcat}
+
+\begin{figure}[htpb!]
+    \centering
+    \includegraphics[width=\linewidth]{Immagini/1/hashcat-logo.png}
+    \caption{Hashcat logo}
+\end{figure}
+
+Hashcat \cite{hashcat} è l'utility di recupero password più veloce e avanzata al mondo, che supporta sei modalità di attacco uniche per oltre 300 algoritmi di hashing altamente ottimizzati. hashcat attualmente supporta CPU, GPU e altri acceleratori hardware su Linux, Windows e macOS e dispone di strutture per consentire il cracking distribuito delle password.
+
+I tipi di attacchi supportati sono :
+\begin{itemize}
+    \item Brute Force
+          \begin{lstlisting}[caption={Hashcat Brute Force}, style=javaScriptCode]
+        hashcat -a 3 -m #type hash.txt 
+    \end{lstlisting}
+    \item Dictionary Attack
+          \begin{lstlisting}[caption={Hashcat Dictionary}, style=javaScriptCode]
+        hashcat -a 0 -m #type hash.txt dict.txt 
+    \end{lstlisting}
+    \item Combination
+          \begin{lstlisting}[caption={Hashcat Combination}, style=javaScriptCode]
+        hashcat -a 1 -m #type hash.txt dict1.txt dict2.txt
+    \end{lstlisting}
+    \item Mask Attack
+          \begin{lstlisting}[caption={Hashcat Mask}, style=javaScriptCode]
+        hashcat -a 3 -m #type hash.txt ?a?a?a?a?a?a?a?a
+    \end{lstlisting}
+    \item Hybrid Dictionary + Mask
+          \begin{lstlisting}[caption={Hashcat Hybrid Dictionary + Mask}, style=javaScriptCode]
+        hashcat -a 6 -m #type hash.txt dict.txt ?a?a?a?a?a?a?a?a
+    \end{lstlisting}
+    \item Hybrid Mask + Wordlist
+          \begin{lstlisting}[caption={Hashcat Hybrid Mask + Wordlist}, style=javaScriptCode]
+        hashcat -a 6 -m #type hash.txt ?a?a?a?a?a?a?a?a dict.txt
+    \end{lstlisting}
+\end{itemize}
+
+Esempio di un Brute Force con Hashcat 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\linewidth]{Immagini/1/hashcat_show.png}
+    \caption{hashcat example}
+    \label{fig:hashcat example}
+\end{figure}
 

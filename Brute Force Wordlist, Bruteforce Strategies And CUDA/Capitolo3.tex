@@ -17,7 +17,7 @@ Questo strumento\cite{CREDDUMP} permette di estrarre ogni possibile cache delle 
 
 Prima di tutto dobbiamo creare una copia dei registri di Windows:
 
-\begin{lstlisting}[ caption={copy reg.}, style=javaScriptCode]
+\begin{lstlisting}[ caption={Copy reg.}, style=javaScriptCode]
     C:\WIND0WS\system32>reg.exe save HKLM\SAM sam_backup.hiv
     C:\WIND0WS\system32>reg.exe save HKLM\SECURITY sec_backup.hiv
     C:\WIND0WS\system32>reg.exe save HKLM\system sys_backup.hiv
@@ -27,19 +27,19 @@ Prima di tutto dobbiamo creare una copia dei registri di Windows:
 Successivamente possiamo utilizzare tre tipi di attacchi :
 \begin{itemize}
     \item cachedump -> scarica le credenziali memorizzate nella cache
-          \begin{lstlisting}[ caption={cachedump example}, style=javaScriptCode]
+          \begin{lstlisting}[ caption={Cachedump esempio}, style=javaScriptCode]
         root@kali:~# cachedump
                      usage: /usr/bin/cachedump <system hive> <security hive>
                      cachedump sys_backup.hiv sec_backup.hiv
     \end{lstlisting}
     \item lsadump -> scarica le credenziali LSA
-          \begin{lstlisting}[ caption={lsadump example}, style=javaScriptCode]
+          \begin{lstlisting}[ caption={Lsadump esempio}, style=javaScriptCode]
         root@kali:~# lsadump
                      usage: /usr/bin/lsadump <system hive> <security hive>
                      lsadump sys_backup.hiv sec_backup.hiv
     \end{lstlisting}
     \item pwdump -> scarica gli hash della password
-          \begin{lstlisting}[ caption={pwdump example}, style=javaScriptCode]
+          \begin{lstlisting}[ caption={Pwdump esempio}, style=javaScriptCode]
         root@kali:~# pwdump 
                      usage: /usr/bin/pwdump <system hive> <security hive>
                      pwdump sys_backup.hiv sec_backup.hiv 
@@ -151,7 +151,7 @@ mark:$6$.n.:17736:0:99999:7:::
 
 Vediamo un esempio :
 
-\begin{lstlisting}[ caption={ETC/SHADOW example}, style=javaScriptCode]
+\begin{lstlisting}[ caption={ETC/SHADOW esempio}, style=javaScriptCode]
     mario:$1$bgfrJMa5U384smbQ$z6nch...:18009:0:120:7:14::
 \end{lstlisting}
 
@@ -223,24 +223,24 @@ John The Ripper mette a disposizione un set di strumenti per estrarre gli hash d
 
     Per prima cosa dobbiamo andare ad estrarre l'hash della password da questo e salvarla su di un'altro file. Per fare questo andremo ad utilizzare il comando \textbf{zip2john}.
 
-    \begin{lstlisting}[ caption={estrazione hash da file zip}, style=javaScriptCode]
+    \begin{lstlisting}[ caption={Estrazione hash da file zip}, style=javaScriptCode]
         root@kali:~# zip2john file.zip > output.txt
     \end{lstlisting}
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=\linewidth]{Immagini/3/hash_ex.png}
-        \caption{estrazione hash da file zip}
+        \caption{Estrazione hash da file zip}
     \end{figure}
 
     Una volta recuperato l'hash della password del file, possiamo passare ad eseguire il Brute Force su di questo. Per recuperare la password useremo sempre John The Ripper, andando però a specificare il formato del file da cui è stato estrapolato, per fare questo aggiungeremo il parametro \textbf{--format}.  
 
-    \begin{lstlisting}[ caption={conversione hash file zip nella password}, style=javaScriptCode]
+    \begin{lstlisting}[ caption={Conversione hash file zip nella password}, style=javaScriptCode]
         root@kali:~# sudo john --format=zip hash.txt
     \end{lstlisting}
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=\linewidth]{Immagini/3/hash_ex_2.png}
-        \caption{conversione hash file zip nella password}
+        \caption{Conversione hash file zip nella password}
     \end{figure}

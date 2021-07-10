@@ -95,11 +95,11 @@ Inserendo solamente il minimo e massimo, crunch creerà una lista alfabetica.
 Se invece inseriamo dei caratteri dopo il minimo e il massimo, utilizzerà quelli per creare la lista
 
 Per salvare l’output, l’opzione è -o
-\begin{lstlisting}[caption={Esempio crunch command}, style=javaScriptCode]
+\begin{lstlisting}[caption={Generazione dizionario con crunch }, style=javaScriptCode]
 root@kali:~# crunch 3 5 123abc -o lista.txt
 \end{lstlisting}
 Inoltre per fare qualcosa di più specifico, come utilizzare una parola come base delle password da generare, a cui inserire dei caratteri speciali, numeri e lettere solo in determinati punti, basterà inserire la chiocciola per indicare dove inserire le lettere, per i caratteri speciali, prima del carattere bisogna digitare ‘\symbol{92}’ (cosiddetto carattere di escape). La percentuale indica invece che vogliamo dei numeri al posto delle lettere dell’alfabeto, mentre il minimo e il massimo devono coincidere con la lunghezza della stringa definita.
-\begin{lstlisting}[caption={Esempio crunch command}, style=javaScriptCode]
+\begin{lstlisting}[caption={Generazione dizionario "complesso" con crunch}, style=javaScriptCode]
 root@kali:~# crunch 14 14 -t \!@@Mr.Touch@@\% -o listaparole.txt
 
     Crunch will now generate the following amount of data: 68546400 bytes
@@ -133,7 +133,7 @@ Tuttavia, gli attacchi arcobaleno non sono lo strumento universale per gli hacke
 
 Uno strumento utilizzato per eseguire questo tipo di attacco è RainbowCrack\cite{rainbowcrack}, questo strumento, ci permette non solo di eseguire questo tipo di attacco, ma anche di generare delle table da utilizzare per gli attacchi. Per generare le tabelle, la sintassi del comando è la seguente :
 
-\begin{lstlisting}[caption={RainbowCrack generazione tabelle}, style=javaScriptCode]
+\begin{lstlisting}[caption={Esempio RainbowCrack command}, style=javaScriptCode]
 rtgen hash_algorithm charset plaintext_len_min plaintext_len_max table_index 
         chain_len chain_num part_index
 \end{lstlisting}
@@ -148,13 +148,13 @@ Ecco un esempio di generazione di una tabella per le parole composte da 1 fino a
 
 Una volta generata la tabella, per utilizzarla dobbiamo prima caricarla, eseguendo il comando : 
 
-\begin{lstlisting}[caption={RainbowCrack generazione tabelle}, style=javaScriptCode]
+\begin{lstlisting}[caption={RainbowCrack caricamento tabelle}, style=javaScriptCode]
     root@kali:~# sudo rtsort .
     \end{lstlisting}
 
 Dopo aver caricato la tabella possiamo passare ad eseguire l'attacco, per eseguire l'attacco possiamo passare direttamente un hash ho passargli un file contenente gli hash da attaccare.
 
-\begin{lstlisting}[caption={RainbowCrack generazione tabelle}, style=javaScriptCode]
+\begin{lstlisting}[caption={Esempio RainbowCrack command attack}, style=javaScriptCode]
     root@kali:~# sudo rcrack -h hash_da_attaccare
     root@kali:~# sudo rcrack -l path_file_da_attaccare
     \end{lstlisting}
@@ -164,7 +164,7 @@ Ecco un esempio di un attacco :
 \begin{figure}[h!]
     \centering
     \includegraphics[width=100mm]{Immagini/1/r_2.png}
-    \caption{RainbowCrack esempio attacco}
+    \caption{Esempio RainbowCrack attack}
 \end{figure}
 
 Per evitare di cadere vittime di un attacco Rainbow Table, oltre a seguire tutte le buone pratiche durante la creazione di una password, questo tipo di attacchi possono essere facilmente prevenuti utilizzando la tecnica del Salt da parte dello sviluppatore del sistema IT in questione. 
@@ -175,7 +175,7 @@ Salt è un bit casuale di dati che viene passato nella funzione hash insieme al 
 L'attacco basato su regole\cite{Rule_based} è come un linguaggio di programmazione progettato per la generazione di password candidate. Ha funzioni per modificare, tagliare o estendere le parole e ha operatori condizionali per saltarne alcune. Ciò lo rende l'attacco più flessibile, accurato ed efficiente.
 Questo tipo di attacco è applicabile nella maggioranza dei strumenti utilizzati per il Brute Force, gli esempi che andremo a vedere sono svolti utilizzando \textbf{Hashcat}, qui le regole vengono scritte in un file di configurazione, che successivamente verrà utilizzato in un comando per applicare le modifiche.
 
-\begin{lstlisting}[caption={utilizzo di regole su Hashcat }, style=javaScriptCode]
+\begin{lstlisting}[caption={Utilizzo di regole su Hashcat }, style=javaScriptCode]
     root@kali:~# hashcat -r file_rules --stdout file_password
     \end{lstlisting}
 
@@ -278,7 +278,7 @@ Ed otterremo il seguente risultato :
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{Immagini/1/mask.png}
-    \caption{esempio Mask Attack con Hashcat}
+    \caption{Esempio Mask Attack con Hashcat}
 \end{figure}
 
 Ovviamente devi assicurarti che le tue informazioni sulla password siano corrette, altrimenti la tua maschera potrebbe non generare la password. Usando il mascheramento puoi anche creare maschere per sfruttare le abitudini delle password. Ad esempio, un'abitudine comune è che le password inizino con una maiuscola se ne è richiesta almeno una.

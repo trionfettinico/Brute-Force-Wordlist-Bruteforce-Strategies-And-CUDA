@@ -51,10 +51,10 @@ Vediamo insieme un attacco con Hydra
     \centering
     \includegraphics[width=\linewidth]{Immagini/5/hydra.png}
     \caption{Hydra esempio}
-    \label{fig:Hydra example}
+    \label{fig:Hydra esempio}
 \end{figure}
 
-\begin{lstlisting}[ caption={Hydra code example}, style=javaScriptCode]
+\begin{lstlisting}[ caption={Hydra code esempio}, style=javaScriptCode]
     root@kali:~# hydra -L user.txt -P pass.txt 172.17.0.1 ssh
 \end{lstlisting}
 
@@ -72,12 +72,12 @@ Una particolarità di questo tool è il fatto di poter eseguire un attacco Brute
 \begin{figure}[htpb!]
     \centering
     \includegraphics[width=\linewidth]{Immagini/5/wpscan_example.png}
-    \caption{WpScan example\cite{wpscan_example}}
-    \label{fig:WpScan example}
+    \caption{WpScan esempio\cite{wpscan_esempio}}
+    \label{fig:WpScan esempio}
 \end{figure}
 
-\begin{lstlisting}[ caption={WpScan code example}, style=javaScriptCode]
-    root@kali:~# wpscan --url http://example.com --password rockyou.txt --usernames andy
+\begin{lstlisting}[ caption={WpScan code esempio}, style=javaScriptCode]
+    root@kali:~# wpscan --url http://esempio.com --password rockyou.txt --usernames andy
 \end{lstlisting}
 
 Una volta eseguito l'attacco verrà mostrato a video le credenziali di accesso, come nell'esempio precedentemente riportato.
@@ -94,8 +94,8 @@ GoBuster\cite{gobuster} è un tool per il Brute Force scritto in Go, questo ling
 \begin{figure}[htpb!]
     \centering
     \includegraphics[width=\linewidth]{Immagini/5/gobuster.png}
-    \caption{gobuster example}
-    \label{fig:gobuster example}
+    \caption{Gobuster esempio}
+    \label{fig:gobuster esempio}
 \end{figure}
 
 La sintassi di questo tool è basata sull'utilizzo dei seguenti parametri :
@@ -110,7 +110,7 @@ La sintassi di questo tool è basata sull'utilizzo dei seguenti parametri :
     \item \textbf{-w} opzione utilizzata per indicare la wordlist per l'attacco
 \end{itemize}
 
-\begin{lstlisting}[ caption={GoBuster code example}, style=javaScriptCode]
+\begin{lstlisting}[ caption={GoBuster code esempio}, style=javaScriptCode]
     root@kali:~# gobuster dir -u https://www.google.it -w /usr/common.txt -o prova.txt
 \end{lstlisting}
 

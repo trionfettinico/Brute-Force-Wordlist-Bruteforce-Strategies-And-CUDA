@@ -52,14 +52,14 @@ Il passo successivo è quello di eseguire una scansione delle reti disponibile, 
     \centering
     \includegraphics[width=\linewidth]{Immagini/6/aircrack_3.png}
     \caption{Aircrack monitoraggio delle reti }
-    \label{fig:Aircrack example}
+    \label{fig:Aircrack esempio}
 \end{figure}
 
 \newpage
 
 Dopo aver individuato la rete da attaccare ( in questo caso la rete scelta è Unicam ), dobbiamo salvarci il suo BSSID\footnote[1]{\textbf{BSSID} : Si tratta di un identificatore a 48 bit per il set di servizi di base, è il MAC del lato 802.11 del punto di accesso.} per eseguire un dump dei pacchetti inerenti a quella rete, in modo da poter intercettare i WPA handshake che avvengono tra i client e l'access point. Questi dati verranno memorizzati in un file con estensione .cap\footnote[1]{\textbf{.CAP} : i file con estensione .CAP contengono dati acquisiti dai programmi di tracciamento dei pacchetti. I dati sono in forma grezza, il che significa che vengono salvati nella forma in cui sono stati catturati.} in modo tale da poter eseguire successivamente un Brute Force su questi dati per poterne estrarre la password.
 
-\begin{lstlisting}[ caption={dump dei pacchetti}, style=javaScriptCode]
+\begin{lstlisting}[ caption={Dump dei pacchetti}, style=javaScriptCode]
 	sudo airodump-ng --channel 10 --bssid #BSSID_AccessPoint -w #percorso wlan0mon
 \end{lstlisting}
 
@@ -67,12 +67,12 @@ Dopo aver individuato la rete da attaccare ( in questo caso la rete scelta è Un
     \centering
     \includegraphics[width=\linewidth]{Immagini/6/aircrack_4.png}
     \caption{Aircrack dump dei pacchetti della rete}
-    \label{fig:Aircrack example}
+    \label{fig:Aircrack esempio}
 \end{figure}
 
 Per poter recuperare la password, dobbiamo attendere che venga recuperato il WPA handshake, ma ci potrebbe volere del tempo, quindi una cosa che si può fare è quella di andar a scollegare alcuni utenti dalla rete in modo che così debba ricollegarsi, facendo partire un handshake. Questo è possibile grazie ad aireplay-ng.
 
-\begin{lstlisting}[ caption={aireplay deauth}, style=javaScriptCode]
+\begin{lstlisting}[ caption={Aireplay deauth}, style=javaScriptCode]
 	sudo aireplay-ng -0 5 -b #BSSID_AccessPoint -h BSSID_Client wlan0mon
 \end{lstlisting}
 
@@ -80,7 +80,7 @@ Per poter recuperare la password, dobbiamo attendere che venga recuperato il WPA
     \centering
     \includegraphics[width=\linewidth]{Immagini/6/aircrack_7.png}
     \caption{Aircrack deauthentication client dalle rete}
-    \label{fig:Aircrack example}
+    \label{fig:Aircrack esempio}
 \end{figure}
 
 Una volta che vediamo che compare la scritta WPA handshake in alto a destra, possiamo chiudere il programma.
@@ -89,12 +89,12 @@ Una volta che vediamo che compare la scritta WPA handshake in alto a destra, pos
     \centering
     \includegraphics[width=\linewidth]{Immagini/6/aircrack_5.png}
     \caption{Aircrack WPA handshake catturato}
-    \label{fig:Aircrack example}
+    \label{fig:Aircrack esempio}
 \end{figure}
 
 Ora che abbiamo recuperato tutti i pacchetti di cui abbiamo bisogno per estrarre la password della rete Wi Fi, dobbiamo eseguire un Brute Force su questi dati "grezzi". Per eseguire il Brute Force, possiamo utilizzare il comando aircrack-ng, che permette tramite l'utilizzo di un dizionario, di eseguire un attacco per individuare la password della rete.
 
-\begin{lstlisting}[ caption={aircrack Brute Force}, style=javaScriptCode]
+\begin{lstlisting}[ caption={Aircrack Brute Force}, style=javaScriptCode]
     sudo aircrack-ng -z -b #BSSID_AccessPoint #Path_file_cap -w #Path_Wordlist
 \end{lstlisting}
 
@@ -102,7 +102,7 @@ Ora che abbiamo recuperato tutti i pacchetti di cui abbiamo bisogno per estrarre
     \centering
     \includegraphics[width=\linewidth]{Immagini/6/ircrack_6.png}
     \caption{Aircrack Brute Force}
-    \label{fig:Aircrack example}
+    \label{fig:Aircrack esempio}
 \end{figure}
 
 \newpage
@@ -115,7 +115,7 @@ Fern\cite{fern} è un'altro strumento utilizzato per testare la sicurezza delle 
     \centering
     \includegraphics[width=\linewidth]{Immagini/6/fern_1.png}
     \caption{Fern-wifi-cracker}
-    \label{fig:Fern example}
+    \label{fig:Fern esempio}
 \end{figure}
 
 Come possiamo vedere, nella parte superiore possiamo scegliere quale scheda di rete impostare per eseguire la scansione, una volta selezionata la rete possiamo far partire la scansione premendo il tasto sottostante.
@@ -127,7 +127,7 @@ Una volta avvenuta la scansione, possiamo vedere le reti disponibile suddivise i
     \centering
     \includegraphics[width=\linewidth]{Immagini/6/fern_3.jpg}
     \caption{Fern-wifi-cracker attack}
-    \label{fig:Fern example}
+    \label{fig:Fern esempio}
 \end{figure}
 
 \label{chap:conc}

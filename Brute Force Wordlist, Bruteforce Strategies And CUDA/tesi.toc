@@ -82,16 +82,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}CPU vs GPU}{51}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Distribuited Brute Force}{53}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Distribuited Brute Force}{55}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Hashtopolis}{53}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Hashtopolis}{55}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusioni}{59}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Conclusioni}{61}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Sviluppi futuri}{59}{section.9.1}%
+\contentsline {section}{\numberline {9.1}Sviluppi futuri}{61}{section.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Problematiche}{59}{section.9.2}%
+\contentsline {section}{\numberline {9.2}Problematiche}{61}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Sistemi di difesa}{60}{section.9.3}%
+\contentsline {section}{\numberline {9.3}Sistemi di difesa}{62}{section.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.1}10 Comandamenti del Hash Cracking}{61}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.1}10 Comandamenti del Hash Cracking}{63}{subsection.9.3.1}%

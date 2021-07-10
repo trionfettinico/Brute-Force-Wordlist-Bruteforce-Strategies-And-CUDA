@@ -9,9 +9,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {1.5}John the ripper Dictionary + Rule}{13}{lstlisting.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {1.6}John the ripper Multi-CPU example 8 core}{13}{lstlisting.1.6}%
+\contentsline {lstlisting}{\numberline {1.6}John the ripper Multi-CPU esempio 8 core}{13}{lstlisting.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {1.7}John the ripper GPU example}{13}{lstlisting.1.7}%
+\contentsline {lstlisting}{\numberline {1.7}John the ripper GPU esempio}{13}{lstlisting.1.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {1.8}Hashcat Brute Force}{14}{lstlisting.1.8}%
 \defcounter {refsection}{0}\relax 
@@ -27,17 +27,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {2.1}Esempio crunch command}{19}{lstlisting.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {2.2}Esempio crunch command}{20}{lstlisting.2.2}%
+\contentsline {lstlisting}{\numberline {2.2}Generazione dizionario con crunch}{20}{lstlisting.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {2.3}Esempio crunch command}{20}{lstlisting.2.3}%
+\contentsline {lstlisting}{\numberline {2.3}Generazione dizionario "complesso" con crunch}{20}{lstlisting.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {2.4}RainbowCrack generazione tabelle}{21}{lstlisting.2.4}%
+\contentsline {lstlisting}{\numberline {2.4}Esempio RainbowCrack command}{21}{lstlisting.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {2.5}RainbowCrack generazione tabelle}{21}{lstlisting.2.5}%
+\contentsline {lstlisting}{\numberline {2.5}RainbowCrack caricamento tabelle}{21}{lstlisting.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {2.6}RainbowCrack generazione tabelle}{21}{lstlisting.2.6}%
+\contentsline {lstlisting}{\numberline {2.6}Esempio RainbowCrack command attack}{21}{lstlisting.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {2.7}utilizzo di regole su Hashcat}{22}{lstlisting.2.7}%
+\contentsline {lstlisting}{\numberline {2.7}Utilizzo di regole su Hashcat}{22}{lstlisting.2.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {2.8}Esempio rule attack wordlist}{22}{lstlisting.2.8}%
 \defcounter {refsection}{0}\relax 
@@ -49,13 +49,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.1}NTDS.DIT Directory}{27}{lstlisting.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.2}copy reg.}{27}{lstlisting.3.2}%
+\contentsline {lstlisting}{\numberline {3.2}Copy reg.}{27}{lstlisting.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.3}cachedump example}{27}{lstlisting.3.3}%
+\contentsline {lstlisting}{\numberline {3.3}Cachedump esempio}{27}{lstlisting.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.4}lsadump example}{28}{lstlisting.3.4}%
+\contentsline {lstlisting}{\numberline {3.4}Lsadump esempio}{28}{lstlisting.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.5}pwdump example}{28}{lstlisting.3.5}%
+\contentsline {lstlisting}{\numberline {3.5}Pwdump esempio}{28}{lstlisting.3.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.6}ProcDump copia lsass}{29}{lstlisting.3.6}%
 \defcounter {refsection}{0}\relax 
@@ -67,11 +67,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.10}ETC/SHADOW composizione}{31}{lstlisting.3.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.11}ETC/SHADOW example}{31}{lstlisting.3.11}%
+\contentsline {lstlisting}{\numberline {3.11}ETC/SHADOW esempio}{31}{lstlisting.3.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.12}estrazione hash da file zip}{32}{lstlisting.3.12}%
+\contentsline {lstlisting}{\numberline {3.12}Estrazione hash da file zip}{32}{lstlisting.3.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.13}conversione hash file zip nella password}{32}{lstlisting.3.13}%
+\contentsline {lstlisting}{\numberline {3.13}Conversione hash file zip nella password}{32}{lstlisting.3.13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.1}Android-PIN-Bruteforce command}{37}{lstlisting.4.1}%
 \defcounter {refsection}{0}\relax 
@@ -85,11 +85,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {5.1}Hydra esempio}{42}{lstlisting.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {5.2}Hydra code example}{42}{lstlisting.5.2}%
+\contentsline {lstlisting}{\numberline {5.2}Hydra code esempio}{42}{lstlisting.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {5.3}WpScan code example}{43}{lstlisting.5.3}%
+\contentsline {lstlisting}{\numberline {5.3}WpScan code esempio}{43}{lstlisting.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {5.4}GoBuster code example}{44}{lstlisting.5.4}%
+\contentsline {lstlisting}{\numberline {5.4}GoBuster code esempio}{44}{lstlisting.5.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {6.1}Configurazione scheda di rete}{45}{lstlisting.6.1}%
 \defcounter {refsection}{0}\relax 
@@ -97,8 +97,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {6.3}Scansione delle reti}{46}{lstlisting.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {6.4}dump dei pacchetti}{47}{lstlisting.6.4}%
+\contentsline {lstlisting}{\numberline {6.4}Dump dei pacchetti}{47}{lstlisting.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {6.5}aireplay deauth}{47}{lstlisting.6.5}%
+\contentsline {lstlisting}{\numberline {6.5}Aireplay deauth}{47}{lstlisting.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {6.6}aircrack Brute Force}{48}{lstlisting.6.6}%
+\contentsline {lstlisting}{\numberline {6.6}Aircrack Brute Force}{48}{lstlisting.6.6}%

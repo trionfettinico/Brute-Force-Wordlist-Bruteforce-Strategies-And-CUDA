@@ -16,15 +16,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Hashcat logo\relax }}{14}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces hashcat example\relax }}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Hashcat esempio\relax }}{15}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces RainbowCrack esempio generazione tabelle\relax }}{21}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces RainbowCrack esempio attacco\relax }}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Esempio RainbowCrack attack\relax }}{22}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces esempio Mask Attack con Hashcat\relax }}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Esempio Mask Attack con Hashcat\relax }}{24}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -40,9 +40,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.6}{\ignorespaces ETC/SHADOW\relax }}{30}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces estrazione hash da file zip\relax }}{32}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Estrazione hash da file zip\relax }}{32}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces conversione hash file zip nella password\relax }}{33}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Conversione hash file zip nella password\relax }}{33}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -54,17 +54,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Android-PIN-Bruteforce time out\relax }}{38}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces WBRUTE example\relax }}{39}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces WBRUTE esempio\relax }}{39}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CiLocks example\relax }}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CiLocks esempio\relax }}{40}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Hydra esempio\relax }}{42}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces WpScan example\cite {wpscan_example}\relax }}{43}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces WpScan esempio\cite {wpscan_esempio}\relax }}{43}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces gobuster example\relax }}{44}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Gobuster esempio\relax }}{44}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -88,30 +88,32 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces GPU hashcat\relax }}{51}{figure.caption.44}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces NVIDIA CUDA logo\relax }}{51}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces CPU vs GPU\relax }}{52}{figure.caption.45}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces GPU hashcat\relax }}{52}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces CPU vs GPU\relax }}{53}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces hashcat Logo\relax }}{53}{figure.caption.46}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Hashtopolis Logo\relax }}{55}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Hashtopolis aggiunta di nuovi agenti\relax }}{54}{figure.caption.47}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Hashtopolis aggiunta di nuovi agenti\relax }}{56}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Hashtopolis aggiungi lista hash da attaccare\relax }}{54}{figure.caption.48}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Hashtopolis aggiungi lista hash da attaccare\relax }}{56}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Hashtopolis aggiungi dizionario\relax }}{55}{figure.caption.49}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Hashtopolis aggiungi dizionario\relax }}{57}{figure.caption.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Hashtopolis creazione task\relax }}{55}{figure.caption.50}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Hashtopolis creazione task\relax }}{57}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Hashtopolis aggiunta user a task\relax }}{55}{figure.caption.51}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Hashtopolis aggiunta user a task\relax }}{57}{figure.caption.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Hashtopolis client script\relax }}{56}{figure.caption.52}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Hashtopolis client script\relax }}{58}{figure.caption.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Hashtopolis task conclusa\relax }}{56}{figure.caption.53}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Hashtopolis task conclusa\relax }}{58}{figure.caption.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Hashtopolis suddivisione lavoro task per agent\relax }}{57}{figure.caption.54}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Hashtopolis suddivisione lavoro task per agent\relax }}{59}{figure.caption.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Hashtopolis password estratte\relax }}{57}{figure.caption.55}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Hashtopolis password estratte\relax }}{59}{figure.caption.56}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

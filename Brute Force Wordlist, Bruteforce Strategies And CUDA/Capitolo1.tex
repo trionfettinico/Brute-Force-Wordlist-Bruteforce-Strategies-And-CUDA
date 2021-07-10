@@ -71,7 +71,7 @@ dove :
         \hline
     \end{tabular}
 \end{center}
-\caption{semplice funzione hash con utilizzo di XOR bit a bit.}
+\caption{Semplice funzione hash con utilizzo di XOR bit a bit.}
 \end{table}
 
 \subsection{Types}
@@ -202,12 +202,12 @@ Le tipologie di attacchi che possiamo eseguire con questo strumento sono :
 
 Un'altra funziona di John The Ripper è quella di utilizzare le CPU in parallelo, questo è possibile tramite l'utilizzo del comando :
 
-\begin{lstlisting}[caption={John the ripper Multi-CPU example 8 core}, style=javaScriptCode]
+\begin{lstlisting}[caption={John the ripper Multi-CPU esempio 8 core}, style=javaScriptCode]
     john --wordlist=dict.txt hash.txt --rules --dev=<#> --fork=8
 \end{lstlisting}
 
 Inoltre è possibile eseguire John The Ripper sfruttando la GPU con il comando 
-\begin{lstlisting}[caption={John the ripper GPU example}, style=javaScriptCode]
+\begin{lstlisting}[caption={John the ripper GPU esempio}, style=javaScriptCode]
     john --list=formats --format=cuda #for CUDA
     john --list=formats --format=opencl #for Opencl\end{lstlisting}
 \subsection{Hashcat}
@@ -253,7 +253,7 @@ Esempio di un Brute Force con Hashcat
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{Immagini/1/hashcat_show.png}
-    \caption{hashcat example}
-    \label{fig:hashcat example}
+    \caption{Hashcat esempio}
+    \label{fig:hashcat esempio}
 \end{figure}
 

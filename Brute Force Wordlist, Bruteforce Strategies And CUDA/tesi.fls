@@ -363,6 +363,9 @@ INPUT ./Immagini/3/cilocks.png
 INPUT ./Immagini/3/cilocks.png
 INPUT Capitolo5.tex
 INPUT Capitolo5.tex
+INPUT Immagini/5/hydra.jpg
+INPUT ./Immagini/5/hydra.jpg
+INPUT ./Immagini/5/hydra.jpg
 INPUT Immagini/5/hydra.png
 INPUT ./Immagini/5/hydra.png
 INPUT ./Immagini/5/hydra.png
@@ -446,9 +449,6 @@ INPUT ./Immagini/8/hashtopolis_10.png
 INPUT ./Immagini/8/hashtopolis_10.png
 INPUT Capitolo9.tex
 INPUT Capitolo9.tex
-INPUT Immagini/9/simpson.png
-INPUT ./Immagini/9/simpson.png
-INPUT ./Immagini/9/simpson.png
 INPUT tesi.lol
 INPUT tesi.lol
 OUTPUT tesi.lol

@@ -42,7 +42,7 @@ A seconda della lunghezza e complessità della password, la sua individuazione p
     \centering
     \begin{tabular}{ |c|c|c|c| }
         \hline
-        Key Length (Chars) & Time To Decrypt \\
+        \textbf{Key Length (Chars)} & \textbf{Time To Decrypt} \\
         \hline
         8                  & 15 min          \\
         \hline
@@ -56,7 +56,7 @@ A seconda della lunghezza e complessità della password, la sua individuazione p
         \hline
     \end{tabular}
     \label{fig:brute}
-    \caption{Tempo di Brute-Force (Password che comprende 0-9,a-z,A-Z)\cite{hashcrack}}
+    \caption{Tempo di Brute Force (Password che comprende 0-9,a-z,A-Z)\cite{hashcrack}}
 \end{table}
 
 \newpage
@@ -217,9 +217,9 @@ Esistono molte altre regole che si possono applicare per cambiare la forma delle
 
 \begin{table}[htbp]
     \begin{center}
-    \begin{tabular}{|l|l|l|l|l|l|}
+    \begin{tabular}{|p{1.5cm}|l|p{4,3cm}|l|l|l|}
     \hline
-    Nome & Comando & Descrizione & Es & Input & Output \\
+    \textbf{Nome} & \textbf{Comando} & \textbf{Descrizione} & \textbf{Es} & \textbf{Input} & \textbf{Output} \\
     \hline
     Niente & : & non fa nulla & : & p@ssW0rd & p@ssW0rd\\
     \hline
@@ -230,11 +230,9 @@ Esistono molte altre regole che si possono applicare per cambiare la forma delle
     Inverti & C & Minuscolo prima lettera,& C & p@ssW0rd & p@SSW0RD \\
     maiuscolo&  &  maiuscolo il resto &  &  &  \\
     \hline
-    Inverti m/M & t & Inverte m/M di tutti & t & p@ssW0rd & P@SSw0RD\\
-    &  & i caratteri nella parola. &  &  &  \\
+    Inverti m/M & t & Inverte m/M di tutti i caratteri nella parola. & t & p@ssW0rd & P@SSw0RD\\
     \hline
-    Inverti m/M& TN & Invert m/M del carattere& T3 & p@ssW0rd & p@sSW0rd\\
-    in N &  &  nella posizione N &  &  &  \\
+    Inverti m/M in N& TN & Invert m/M del carattere nella posizione N & T3 & p@ssW0rd & p@sSW0rd\\
     \hline
     Inversione & r & Invertire l'intera parola & r & p@ssW0rd & dr0Wss@p\\
     \hline
@@ -246,10 +244,8 @@ Esistono molte altre regole che si possono applicare per cambiare la forma delle
     \hline
     Gira a destra & \} & Ruota la parola a destra & \} & p@ssW0rd & dp@ssW0r \\
     \hline
-    Aggiungi & \textasciicircum X & Anteponi il carattere X  & \textasciicircum 1 & p@ssW0rd & 1p@ssW0rd\\
-    carattere&  & in primo piano &  &  &  \\
+    Aggiungi carattere & \textasciicircum X & Anteponi il carattere X in primo piano & \textasciicircum 1 & p@ssW0rd & 1p@ssW0rd\\
     \hline
-
     \end{tabular}
     \end{center}
     \caption{Esempio regole hashcat}
@@ -297,8 +293,21 @@ In questi tipi di attacco, come abbiamo potuto vedere nell'esempio precedente, d
 Questi vengono composti per creare la nostra maschera da utilizzare per la realizzazione delle password da testare nell'attacco.
 
 Vediamo alcuni esempi di maschere che si possono creare :
-\newline
-\newline
-Unicam1336   -> ?u?l?l?l?l?l?d?d?d?d \newline
-cAmErInO!    -> ?l?u?l?u?l?u?l?u?s \newline
-Laurea?20-21 -> ?u?l?l?l?l?l?s?d?d?s?d?d \newline
+
+\begin{table}[htbp]
+    \begin{center}
+
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Password} & \textbf{Maschera} \\
+        \hline
+        Unicam1336 & ?u?l?l?l?l?l?d?d?d?d \\
+        \hline
+        cAmErInO! & ?l?u?l?u?l?u?l?u?s \\
+        \hline
+        Laurea?20-21 & ?u?l?l?l?l?l?s?d?d?s?d?d \\
+        \hline
+    \end{tabular}
+\end{center}
+\caption{Esempio maschere per password}
+\end{table}

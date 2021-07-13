@@ -28,92 +28,94 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces MIMIKATZ e antivirus\relax }}{28}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces MIMIKATZ e antivirus\relax }}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ProcDump e antivirus\relax }}{29}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ProcDump e antivirus\relax }}{29}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Mimikatz primo avvio\relax }}{29}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mimikatz primo avvio\relax }}{29}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Mimikatz setup\relax }}{29}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mimikatz setup\relax }}{29}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Mimikatz dumo hash\relax }}{30}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Mimikatz dumo hash\relax }}{30}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces ETC/SHADOW\relax }}{30}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ETC/SHADOW\relax }}{30}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Estrazione hash da file zip\relax }}{32}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Estrazione hash da file zip\relax }}{32}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Conversione hash file zip nella password\relax }}{33}{figure.caption.25}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces NetHunter\relax }}{35}{figure.caption.26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Android-PIN-Bruteforce\relax }}{36}{figure.caption.27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Android-PIN-Bruteforce esempio\relax }}{37}{figure.caption.28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Android-PIN-Bruteforce time out\relax }}{38}{figure.caption.29}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces WBRUTE esempio\relax }}{39}{figure.caption.30}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CiLocks esempio\relax }}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Conversione hash file zip nella password\relax }}{33}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hydra esempio\relax }}{42}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces NetHunter\relax }}{35}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces WpScan esempio\cite {wpscan_esempio}\relax }}{43}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Android-PIN-Bruteforce\relax }}{36}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Gobuster esempio\relax }}{44}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Android-PIN-Bruteforce esempio\relax }}{37}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Android-PIN-Bruteforce time out\relax }}{38}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Aircrack visualizzazione interfaccia di rete\relax }}{46}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces WBRUTE esempio\relax }}{39}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Aircrack selezione interfaccia di rete\relax }}{46}{figure.caption.36}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Aircrack monitoraggio delle reti \relax }}{47}{figure.caption.37}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Aircrack dump dei pacchetti della rete\relax }}{47}{figure.caption.38}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Aircrack deauthentication client dalle rete\relax }}{48}{figure.caption.39}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Aircrack WPA handshake catturato\relax }}{48}{figure.caption.40}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Aircrack Brute Force\relax }}{48}{figure.caption.41}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Fern-wifi-cracker\relax }}{49}{figure.caption.42}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Fern-wifi-cracker attack\relax }}{50}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CiLocks esempio\relax }}{40}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces NVIDIA CUDA logo\relax }}{51}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hydra logo\relax }}{41}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces GPU hashcat\relax }}{52}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Hydra esempio\relax }}{42}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces CPU vs GPU\relax }}{53}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces WpScan esempio\cite {wpscan_esempio}\relax }}{43}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Gobuster esempio\relax }}{44}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Hashtopolis Logo\relax }}{55}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Aircrack visualizzazione interfaccia di rete\relax }}{46}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Hashtopolis aggiunta di nuovi agenti\relax }}{56}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Aircrack selezione interfaccia di rete\relax }}{46}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Hashtopolis aggiungi lista hash da attaccare\relax }}{56}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Aircrack monitoraggio delle reti \relax }}{47}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Hashtopolis aggiungi dizionario\relax }}{57}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Aircrack dump dei pacchetti della rete\relax }}{47}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Hashtopolis creazione task\relax }}{57}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Aircrack deauthentication client dalle rete\relax }}{48}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Hashtopolis aggiunta user a task\relax }}{57}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Aircrack WPA handshake catturato\relax }}{48}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Hashtopolis client script\relax }}{58}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Aircrack Brute Force\relax }}{48}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Hashtopolis task conclusa\relax }}{58}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Fern-wifi-cracker\relax }}{49}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Hashtopolis suddivisione lavoro task per agent\relax }}{59}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Fern-wifi-cracker attack\relax }}{50}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Hashtopolis password estratte\relax }}{59}{figure.caption.56}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces NVIDIA CUDA logo\relax }}{51}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces GPU hashcat\relax }}{52}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces CPU vs GPU\relax }}{53}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Hashtopolis Logo\relax }}{55}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Hashtopolis aggiunta di nuovi agenti\relax }}{56}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Hashtopolis aggiungi lista hash da attaccare\relax }}{56}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Hashtopolis aggiungi dizionario\relax }}{57}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Hashtopolis creazione task\relax }}{57}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Hashtopolis aggiunta user a task\relax }}{57}{figure.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Hashtopolis client script\relax }}{58}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Hashtopolis task conclusa\relax }}{58}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Hashtopolis suddivisione lavoro task per agent\relax }}{59}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Hashtopolis password estratte\relax }}{59}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

@@ -36,7 +36,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Rule Attack}{22}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Mask Attack}{24}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Mask Attack}{23}{section.2.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Extract Hashes}{27}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -94,4 +94,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.3}Sistemi di difesa}{62}{section.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.1}10 Comandamenti del Hash Cracking}{63}{subsection.9.3.1}%
+\contentsline {section}{\numberline {9.4}10 Comandamenti del Hash Cracking}{62}{section.9.4}%

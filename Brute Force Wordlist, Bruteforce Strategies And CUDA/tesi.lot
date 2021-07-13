@@ -8,21 +8,25 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Tempo di Brute-Force (Password che comprende 0-9,a-z,A-Z)\cite {hashcrack}\relax }}{18}{table.caption.12}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Tempo di Brute Force (Password che comprende 0-9,a-z,A-Z)\cite {hashcrack}\relax }}{18}{table.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Esempio regole hashcat\relax }}{23}{table.caption.15}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Esempio regole hashcat\relax }}{24}{table.caption.15}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces John The Ripper estrazione hash da file\relax }}{32}{table.caption.23}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Esempio maschere per password\relax }}{25}{table.caption.17}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces John The Ripper estrazione hash da file\relax }}{32}{table.caption.24}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.1}{\ignorespaces Dispositivi utilizzati per test velocità Brute Force\relax }}{52}{table.caption.48}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,5 +1,5 @@
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {1.1}John the ripper Bruteforce}{13}{lstlisting.1.1}%
+\contentsline {lstlisting}{\numberline {1.1}John the ripper Brute Force}{13}{lstlisting.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {1.2}John the ripper Dictionary}{13}{lstlisting.1.2}%
 \defcounter {refsection}{0}\relax 

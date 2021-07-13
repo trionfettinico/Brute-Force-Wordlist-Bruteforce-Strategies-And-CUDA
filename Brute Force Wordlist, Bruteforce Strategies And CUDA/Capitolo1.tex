@@ -55,23 +55,23 @@ dove :
 \begin{table}[htbp]
     \begin{center}
 
-    \begin{tabular}{|l|l|l|l|l|}
-        \hline
-                    & Bit 1                     & Bit 2                     & ...                       & Bit \(n\)                 \\
-                    \hline
-        Blocco 1    & b\ped{11}                 & b\ped{21}                 &                           & b\ped{n1}                 \\
-        \hline
-        Blocco 2    & b\ped{12}                 & b\ped{22}                 &                           & b\ped{n2}                 \\
-        \hline
-                    & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} \\
-        \hline
-        Blocco m    & b\ped{1m}                 & b\ped{2m}                 &                           & b\ped{nm}                 \\
-        \hline
-        Codice hash & C\ped{1}                  & C\ped{2}                  &                           & C\ped{n} \\
-        \hline
-    \end{tabular}
-\end{center}
-\caption{Semplice funzione hash con utilizzo di XOR bit a bit.}
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+                                 & \textbf{Bit 1}            & \textbf{Bit 2}            & \textbf{...}              & \textbf{Bit \(n\)}        \\
+            \hline
+            \textbf{Blocco 1}    & b\ped{11}                 & b\ped{21}                 &                           & b\ped{n1}                 \\
+            \hline
+            \textbf{Blocco 2}    & b\ped{12}                 & b\ped{22}                 &                           & b\ped{n2}                 \\
+            \hline
+                                 & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} & \begin{tabular}[c]{@{}l@{}}.\\ .\\ .\end{tabular} \\
+            \hline
+            \textbf{Blocco m}    & b\ped{1m}                 & b\ped{2m}                 &                           & b\ped{nm}                 \\
+            \hline
+            \textbf{Codice hash} & C\ped{1}                  & C\ped{2}                  &                           & C\ped{n}                  \\
+            \hline
+        \end{tabular}
+    \end{center}
+    \caption{Semplice funzione hash con utilizzo di XOR bit a bit.}
 \end{table}
 
 \subsection{Types}
@@ -168,8 +168,8 @@ Il programma combina diverse modalità di rottura in un unico programma ed è co
 \newpage
 Le tipologie di attacchi che possiamo eseguire con questo strumento sono :
 \begin{itemize}
-    \item Bruteforce Attack \newline
-          \begin{lstlisting}[caption={John the ripper Bruteforce}, style=javaScriptCode]
+    \item Brute Force Attack \newline
+          \begin{lstlisting}[caption={John the ripper Brute Force}, style=javaScriptCode]
         john --format=#type hash.txt
     \end{lstlisting}
     \item Dictionary Attack \newline

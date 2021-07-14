@@ -209,6 +209,14 @@
     \endverb
   \endentry
 
+  \entry{lsass}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{What is the Windows lsass.exe file and process?}
+    \verb{url}
+    \verb https://www.computerhope.com/issues/ch000913.htm
+    \endverb
+  \endentry
+
   \entry{hash_Linux}{online}{}
     \field{labeltitlesource}{title}
     \field{title}{Spiegazione del file /etc/shadow su Linux}
